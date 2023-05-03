@@ -55,6 +55,7 @@ class ActionPengajian(ActionQueryKnowledgeBase):
         object_type: Text,
         objects: List[Dict[Text, Any]],
     ):
+        new_line = "\n"
         if objects:
             repr_function = await utils.call_potential_coroutine(
                 self.knowledge_base.get_representation_function_of_object(
@@ -64,13 +65,16 @@ class ActionPengajian(ActionQueryKnowledgeBase):
             if len(objects) == 1:
                 for i, obj in enumerate(objects, 1):
                     dispatcher.utter_message(
-                        text=f"{object_type} {repr_function(obj)}")
+                        text=f"{object_type} {repr_function(obj)}{new_line}"
+                    )
             else:
                 dispatcher.utter_message(
-                    text=f"Disini ada beberapa {object_type} seperti :",
+                    text=f"Disini ada beberapa {object_type} seperti :{new_line}",
                 )
                 for i, obj in enumerate(objects, 1):
-                    dispatcher.utter_message(text=f"{i}: {repr_function(obj)}")
+                    dispatcher.utter_message(
+                        text=f"{i}: {repr_function(obj)}{new_line}"
+                    )
 
         else:
             dispatcher.utter_message(
@@ -372,6 +376,7 @@ class ActionAskAgain(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         object_type = tracker.get_slot("object_type")
+        new_line_before_ask = "\n"
         if not object_type:
             dispatcher.utter_message(
                 text=f"Maaf, saya tidak mengerti tentang {object_type}.")
@@ -421,7 +426,6 @@ class ActionLaguUlangtahun(Action):
 
 #     def close_browser(self):
 #         subprocess.call("TASKKILL /F /IM chrome.exe", shell=True)
-
 
 
 class ActionLagu(ActionQueryKnowledgeBase):
@@ -487,4 +491,3 @@ class ActionLagu(ActionQueryKnowledgeBase):
             dispatcher.utter_message(
                 text=f"Maaf, saya kurang paham mengenai informasi {object_type} tersebut."
             )
-
