@@ -8,64 +8,69 @@ stories:
           mau nanya tentang pengajian
         intent: query_pengajian
       - action: action_query_pengajian
+      - action: action_ask_again
       - user: |
           tadarusan suruh bawa apa ya ?
         intent: query_pengajian
       - action: action_query_pengajian
+      - action: action_ask_again
 
   - story: penyakit test path
     steps:
       - user: |
-          diabetes obatnya apa ?
+          saya mau bertanya tentang penyakit
         intent: query_penyakit
       - action: action_query_penyakit
+      - action: action_ask_again
       - user: |
           penyebabnya diabetes apa ?
         intent: query_penyakit
       - action: action_query_penyakit
+      - action: action_ask_again
 
   - story: obat test path
     steps:
       - user: |
-          hello
-        intent: greet
-      - action: utter_greet
+          saya mau bertanya tentang obat-obatan
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
       - user: |
-          not good
-        intent: mood_unhappy
-      - action: utter_cheer_up
+          obat untuk diabetes apa ?
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
 
-  - story: sad path 2
+  - story: salat test path
     steps:
       - user: |
-          hello
-        intent: greet
-      - action: utter_greet
+          mau tanya tentang solat
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
       - user: |
-          not good
-        intent: mood_unhappy
-      - action: utter_cheer_up
-      - action: utter_did_that_help
-      - user: |
-          not really
-        intent: deny
-      - action: utter_goodbye
+          kapan melakukan solat maghrib
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
 
-  - story: sad path 3
+  - story: lagu-lagu test path
     steps:
       - user: |
-          hi
-        intent: greet
-      - action: utter_greet
+          kamu tahu lagu apa aja
+        intent: query_lagu_lagu
+      - action: action_query_lagu_lagu
+      - action: action_ask_again
       - user: |
-          very terrible
-        intent: mood_unhappy
-      - action: utter_cheer_up
-      - action: utter_did_that_help
+          mainkan lagu frank sinatra my way
+        intent: query_lagu_lagu
+      - action: action_query_lagu_lagu
+      - action: action_ask_again
       - user: |
-          no
-        intent: deny
-      - action: utter_goodbye
+          mainkan lagu westlife fool again
+        intent: query_lagu_lagu
+      - action: action_query_lagu_lagu
+      - action: action_ask_again
 
   - story: say goodbye
     steps:
