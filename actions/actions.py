@@ -65,15 +65,15 @@ class ActionPengajian(ActionQueryKnowledgeBase):
             if len(objects) == 1:
                 for i, obj in enumerate(objects, 1):
                     dispatcher.utter_message(
-                        text=f"{object_type} {repr_function(obj)}{new_line}"
+                        text=f"{object_type} {repr_function(obj)}"
                     )
             else:
                 dispatcher.utter_message(
-                    text=f"Disini ada beberapa {object_type} seperti :{new_line}",
+                    text=f"Disini ada beberapa {object_type} seperti :",
                 )
                 for i, obj in enumerate(objects, 1):
                     dispatcher.utter_message(
-                        text=f"{i}: {repr_function(obj)}{new_line}"
+                        text=f"{i}: {repr_function(obj)}"
                     )
 
         else:
