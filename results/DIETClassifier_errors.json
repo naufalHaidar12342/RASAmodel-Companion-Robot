@@ -1,0 +1,97 @@
+[
+  {
+    "text": "siapa ustad pengajian tadi?",
+    "entities": [
+      {
+        "start": 6,
+        "end": 11,
+        "value": "pembicara",
+        "entity": "attribute"
+      },
+      {
+        "start": 12,
+        "end": 21,
+        "value": "pengajian",
+        "entity": "object_type"
+      },
+      {
+        "start": 22,
+        "end": 26,
+        "value": "tadi",
+        "entity": "mention"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "attribute",
+        "start": 6,
+        "end": 11,
+        "confidence_entity": 0.9977557063102722,
+        "value": "pembicara",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "mention",
+        "start": 22,
+        "end": 26,
+        "confidence_entity": 0.9982450008392334,
+        "value": "tadi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "obat apa yang cocok untuk penyakit diabetes",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "obat",
+        "entity": "object_type"
+      },
+      {
+        "start": 35,
+        "end": 43,
+        "value": "penyakit",
+        "entity": "attribute"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_type",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.8648746013641357,
+        "value": "obat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "penyakit",
+        "start": 35,
+        "end": 43,
+        "confidence_entity": 0.8319452404975891,
+        "value": "penyakit",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "penyakit",
+        "start": 35,
+        "end": 43,
+        "value": "diabetes",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  }
+]
