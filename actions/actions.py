@@ -55,7 +55,7 @@ class ActionPengajian(ActionQueryKnowledgeBase):
         object_type: Text,
         objects: List[Dict[Text, Any]],
     ):
-        new_line = "\n"
+        new_line = "\\n"
         if objects:
             repr_function = await utils.call_potential_coroutine(
                 self.knowledge_base.get_representation_function_of_object(
@@ -376,7 +376,7 @@ class ActionAskAgain(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         object_type = tracker.get_slot("object_type")
-        new_line_before_ask = "\n"
+        new_line_before_ask = "\\n"
         if not object_type:
             dispatcher.utter_message(
                 text=f"Maaf, saya tidak mengerti tentang {object_type}.")
