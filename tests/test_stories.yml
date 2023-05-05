@@ -54,24 +54,6 @@ stories:
       - action: action_query_solat
       - action: action_ask_again
 
-  - story: lagu-lagu test path
-    steps:
-      - user: |
-          kamu tahu lagu apa aja
-        intent: query_lagu_lagu
-      - action: action_query_lagu_lagu
-      - action: action_ask_again
-      - user: |
-          mainkan lagu frank sinatra my way
-        intent: query_lagu_lagu
-      - action: action_query_lagu_lagu
-      - action: action_ask_again
-      - user: |
-          mainkan lagu westlife fool again
-        intent: query_lagu_lagu
-      - action: action_query_lagu_lagu
-      - action: action_ask_again
-
   - story: say goodbye
     steps:
       - user: |
