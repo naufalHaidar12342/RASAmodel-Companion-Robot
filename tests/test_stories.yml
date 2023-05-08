@@ -2,7 +2,7 @@
 #### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
 
 stories:
-  - story: pengajian test path
+  - story: pengajian test path 1
     steps:
       - user: |
           mau nanya tentang pengajian
@@ -14,8 +14,31 @@ stories:
         intent: query_pengajian
       - action: action_query_pengajian
       - action: action_ask_again
+      - user: |
+          pengajian fikih hari apa ?
+        intent: query_pengajian
+      - action: action_query_pengajian
+      - action: action_ask_again
 
-  - story: penyakit test path
+  - story: pengajian test path 2
+    steps:
+      - user: |
+          tafsir alquran hari apa ?
+        intent: query_pengajian
+      - action: action_query_pengajian
+      - action: action_ask_again
+      - user: |
+          tafsir alquran untuk apa ?
+        intent: query_pengajian
+      - action: action_query_pengajian
+      - action: action_ask_again
+      - user: |
+          tafsir hadist itu apa?
+        intent: query_pengajian
+      - action: action_query_pengajian
+      - action: action_ask_again
+
+  - story: penyakit test path 1
     steps:
       - user: |
           saya mau bertanya tentang penyakit
@@ -27,8 +50,13 @@ stories:
         intent: query_penyakit
       - action: action_query_penyakit
       - action: action_ask_again
+      - user: |
+          diabetes obatnya apa ?
+        intent: query_penyakit
+      - action: action_query_penyakit
+      - action: action_ask_again
 
-  - story: obat test path
+  - story: obat test path 1
     steps:
       - user: |
           saya mau bertanya tentang obat-obatan
@@ -41,7 +69,20 @@ stories:
       - action: action_query_obat
       - action: action_ask_again
 
-  - story: salat test path
+  - story: obat test path 2
+    steps:
+      - user: |
+          obat disini apa saja?
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+      - user: |
+          obat metformin itu apa?
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: salat test path 1
     steps:
       - user: |
           mau tanya tentang solat
@@ -52,6 +93,45 @@ stories:
           kapan melakukan solat maghrib
         intent: query_solat
       - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 2
+    steps:
+      - user: |
+          kapan waktu solat maghrib?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+      - user: |
+          solat hajat untuk apa?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: lagu-lagu test path 1
+    steps:
+      - user: |
+          kamu tahu lagu apa aja?
+        intent: query_lagu_lagu
+      - action: action_query_lagu_lagu
+      - action: action_ask_again
+      - user: |
+          mainkan lagu westlife fool again
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: lagu-lagu test path 2
+    steps:
+      - user: |
+          lagu apa saja yang kamu ketahui?
+        intent: query_lagu_lagu
+      - action: action_query_lagu_lagu
+      - action: action_ask_again
+      - user: |
+          putar lagu the beatles
+        intent: query_lagu_lagu
+      - action: action_query_lagu_lagu
       - action: action_ask_again
 
   - story: say goodbye

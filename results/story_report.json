@@ -1,9 +1,21 @@
 {
   "action_query_obat": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
     "support": 2
+  },
+  "action_query_lagu_kesukaan": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "action_listen": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 28
   },
   "action_query_pengajian": {
     "precision": 1.0,
@@ -11,59 +23,35 @@
     "f1-score": 1.0,
     "support": 2
   },
-  "utter_iamabot": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 1
-  },
-  "query_obat": {
+  "action_query_penyakit": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 2
   },
-  "query_penyakit": {
+  "utter_goodbye": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 2
+    "support": 4
+  },
+  "utter_greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14
   },
   "action_query_lagu_lagu": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 3
-  },
-  "None": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 23
-  },
-  "goodbye": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
     "support": 1
   },
-  "utter_goodbye": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 1
-  },
-  "query_pengajian": {
+  "action_ask_again": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 2
-  },
-  "action_listen": {
-    "precision": 0.8125,
-    "recall": 1.0,
-    "f1-score": 0.896551724137931,
-    "support": 13
+    "support": 8
   },
   "action_query_solat": {
     "precision": 1.0,
@@ -71,59 +59,29 @@
     "f1-score": 1.0,
     "support": 2
   },
-  "query_solat": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 2
-  },
-  "action_ask_again": {
-    "precision": 1.0,
-    "recall": 0.7272727272727273,
-    "f1-score": 0.8421052631578948,
-    "support": 11
-  },
-  "query_lagu_lagu": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 3
-  },
-  "action_query_penyakit": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 2
-  },
-  "bot_challenge": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 1
-  },
-  "micro avg": {
-    "precision": 0.9318181818181818,
-    "recall": 0.5616438356164384,
-    "f1-score": 0.7008547008547009,
-    "support": 73
-  },
+  "accuracy": 1.0,
   "macro avg": {
-    "precision": 0.6360294117647058,
-    "recall": 0.6310160427807486,
-    "f1-score": 0.6316857051350486,
-    "support": 73
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 64
   },
   "weighted avg": {
-    "precision": 0.5693493150684932,
-    "recall": 0.5616438356164384,
-    "f1-score": 0.5605250727195883,
-    "support": 73
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 64
   },
-  "accuracy": 0.5616438356164384,
+  "micro avg": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 64
+  },
   "conversation_accuracy": {
-    "accuracy": 0.0,
-    "correct": 0,
+    "accuracy": 1.0,
+    "correct": 10,
     "with_warnings": 0,
-    "total": 7
+    "total": 10
   }
 }
