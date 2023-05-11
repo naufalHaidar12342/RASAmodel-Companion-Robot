@@ -86,6 +86,8 @@ nlu:
   - intent: query_obat
     examples: |
       - mau tanya tentang [obat obatan]{"entity": "object_type", "value": "obat"}
+      - mau tanya tentang [obat-obatan]{"entity": "object_type", "value": "obat"}
+      - saya mau bertanya tentang [obat-obatan]{"entity": "object_type", "value": "obat"}
       - [obat]{"entity": "object_type"} apa aja yang ada di panti?
       - disini tersedia [obat]{"entity": "object_type"} apa aja?
       - [obat]{"entity": "object_type"} apa yang cocok untuk penyakit [diabetes]{"entity": "attribute", "value": "penyakit"}
