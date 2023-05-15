@@ -1,22 +1,22 @@
 [
   {
-    "text": "siapa ustad pengajian tadi?",
+    "text": "siapa imam pengajian tadi?",
     "entities": [
       {
         "start": 6,
-        "end": 11,
+        "end": 10,
         "value": "pembicara",
         "entity": "attribute"
       },
       {
-        "start": 12,
-        "end": 21,
+        "start": 11,
+        "end": 20,
         "value": "pengajian",
         "entity": "object_type"
       },
       {
-        "start": 22,
-        "end": 26,
+        "start": 21,
+        "end": 25,
         "value": "tadi",
         "entity": "mention"
       }
@@ -25,8 +25,8 @@
       {
         "entity": "attribute",
         "start": 6,
-        "end": 11,
-        "confidence_entity": 0.9977557063102722,
+        "end": 10,
+        "confidence_entity": 0.9991747736930847,
         "value": "pembicara",
         "extractor": "DIETClassifier",
         "processors": [
@@ -35,9 +35,9 @@
       },
       {
         "entity": "mention",
-        "start": 22,
-        "end": 26,
-        "confidence_entity": 0.9982450008392334,
+        "start": 21,
+        "end": 25,
+        "confidence_entity": 0.9984697699546814,
         "value": "tadi",
         "extractor": "DIETClassifier",
         "processors": [
@@ -67,7 +67,7 @@
         "entity": "object_type",
         "start": 0,
         "end": 4,
-        "confidence_entity": 0.8648746013641357,
+        "confidence_entity": 0.9021351933479309,
         "value": "obat",
         "extractor": "DIETClassifier",
         "processors": [
@@ -78,7 +78,7 @@
         "entity": "penyakit",
         "start": 35,
         "end": 43,
-        "confidence_entity": 0.8319452404975891,
+        "confidence_entity": 0.9070632457733154,
         "value": "penyakit",
         "extractor": "DIETClassifier",
         "processors": [

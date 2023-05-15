@@ -14,7 +14,7 @@
         "entity": "object_type",
         "start": 28,
         "end": 37,
-        "confidence_entity": 0.9852015376091003,
+        "confidence_entity": 0.9857309460639954,
         "value": "pengajian",
         "extractor": "DIETClassifier",
         "processors": [
@@ -38,7 +38,7 @@
         "entity": "object_type",
         "start": 18,
         "end": 27,
-        "confidence_entity": 0.9688106775283813,
+        "confidence_entity": 0.9802849292755127,
         "value": "pengajian",
         "extractor": "DIETClassifier",
         "processors": [
@@ -68,7 +68,7 @@
         "entity": "pengajian",
         "start": 0,
         "end": 14,
-        "confidence_entity": 0.986650824546814,
+        "confidence_entity": 0.989007830619812,
         "value": "tafsir alquran",
         "extractor": "DIETClassifier",
         "processors": [
@@ -79,7 +79,7 @@
         "entity": "attribute",
         "start": 15,
         "end": 19,
-        "confidence_entity": 0.9425279498100281,
+        "confidence_entity": 0.953931450843811,
         "value": "jadwal",
         "extractor": "DIETClassifier",
         "processors": [
@@ -116,7 +116,7 @@
         "entity": "pengajian",
         "start": 10,
         "end": 15,
-        "confidence_entity": 0.9979804158210754,
+        "confidence_entity": 0.9970307350158691,
         "value": "fikih",
         "extractor": "DIETClassifier",
         "processors": [
@@ -127,7 +127,7 @@
         "entity": "attribute",
         "start": 16,
         "end": 20,
-        "confidence_entity": 0.8847719430923462,
+        "confidence_entity": 0.9123648405075073,
         "value": "jadwal",
         "extractor": "DIETClassifier",
         "processors": [
@@ -164,7 +164,7 @@
         "entity": "pengajian",
         "start": 0,
         "end": 9,
-        "confidence_entity": 0.9981892704963684,
+        "confidence_entity": 0.9987215399742126,
         "value": "tadarusan",
         "extractor": "DIETClassifier",
         "processors": [
@@ -175,7 +175,7 @@
         "entity": "attribute",
         "start": 10,
         "end": 15,
-        "confidence_entity": 0.9988483190536499,
+        "confidence_entity": 0.9993413090705872,
         "value": "jadwal",
         "extractor": "DIETClassifier",
         "processors": [
@@ -212,7 +212,7 @@
         "entity": "jadwal",
         "start": 5,
         "end": 10,
-        "confidence_entity": 0.9958462119102478,
+        "confidence_entity": 0.9964959025382996,
         "value": "senin",
         "extractor": "DIETClassifier",
         "processors": [
@@ -223,7 +223,7 @@
         "entity": "object_type",
         "start": 16,
         "end": 25,
-        "confidence_entity": 0.8398009538650513,
+        "confidence_entity": 0.9064987301826477,
         "value": "pengajian",
         "extractor": "DIETClassifier",
         "processors": [
@@ -260,7 +260,7 @@
         "entity": "jadwal",
         "start": 11,
         "end": 16,
-        "confidence_entity": 0.9941328167915344,
+        "confidence_entity": 0.9964985847473145,
         "value": "senin",
         "extractor": "DIETClassifier",
         "processors": [
@@ -271,7 +271,7 @@
         "entity": "object_type",
         "start": 17,
         "end": 26,
-        "confidence_entity": 0.8836286067962646,
+        "confidence_entity": 0.9245285391807556,
         "value": "pengajian",
         "extractor": "DIETClassifier",
         "processors": [
@@ -308,7 +308,7 @@
         "entity": "mention",
         "start": 10,
         "end": 14,
-        "confidence_entity": 0.9989628791809082,
+        "confidence_entity": 0.9986101388931274,
         "value": "tadi",
         "extractor": "DIETClassifier",
         "processors": [
@@ -319,7 +319,7 @@
         "entity": "attribute",
         "start": 20,
         "end": 27,
-        "confidence_entity": 0.9986312985420227,
+        "confidence_entity": 0.9990642666816711,
         "value": "materi",
         "extractor": "DIETClassifier",
         "processors": [
@@ -349,7 +349,7 @@
         "entity": "pengajian",
         "start": 10,
         "end": 15,
-        "confidence_entity": 0.9979128241539001,
+        "confidence_entity": 0.9969797134399414,
         "value": "fikih",
         "extractor": "DIETClassifier",
         "processors": [
@@ -360,7 +360,7 @@
         "entity": "attribute",
         "start": 27,
         "end": 32,
-        "confidence_entity": 0.7892126441001892,
+        "confidence_entity": 0.9252446889877319,
         "value": "tujuan",
         "extractor": "DIETClassifier",
         "processors": [
@@ -397,7 +397,7 @@
         "entity": "mention",
         "start": 10,
         "end": 14,
-        "confidence_entity": 0.9989832043647766,
+        "confidence_entity": 0.9986532926559448,
         "value": "tadi",
         "extractor": "DIETClassifier",
         "processors": [
@@ -408,7 +408,7 @@
         "entity": "attribute",
         "start": 26,
         "end": 30,
-        "confidence_entity": 0.9983248114585876,
+        "confidence_entity": 0.9988762736320496,
         "value": "tujuan",
         "extractor": "DIETClassifier",
         "processors": [
@@ -438,7 +438,7 @@
         "entity": "pengajian",
         "start": 0,
         "end": 9,
-        "confidence_entity": 0.9982158541679382,
+        "confidence_entity": 0.9986975193023682,
         "value": "tadarusan",
         "extractor": "DIETClassifier",
         "processors": [
@@ -449,7 +449,7 @@
         "entity": "attribute",
         "start": 16,
         "end": 20,
-        "confidence_entity": 0.9987102746963501,
+        "confidence_entity": 0.9993245601654053,
         "value": "perlengkapan",
         "extractor": "DIETClassifier",
         "processors": [
@@ -486,7 +486,7 @@
         "entity": "attribute",
         "start": 20,
         "end": 26,
-        "confidence_entity": 0.998576283454895,
+        "confidence_entity": 0.9994346499443054,
         "value": "perlengkapan",
         "extractor": "DIETClassifier",
         "processors": [
@@ -497,7 +497,7 @@
         "entity": "pengajian",
         "start": 32,
         "end": 41,
-        "confidence_entity": 0.9986976385116577,
+        "confidence_entity": 0.9984350800514221,
         "value": "tadarusan",
         "extractor": "DIETClassifier",
         "processors": [
@@ -540,19 +540,8 @@
         "entity": "attribute",
         "start": 6,
         "end": 10,
-        "confidence_entity": 0.9978107810020447,
+        "confidence_entity": 0.9991747736930847,
         "value": "pembicara",
-        "extractor": "DIETClassifier",
-        "processors": [
-          "EntitySynonymMapper"
-        ]
-      },
-      {
-        "entity": "object_type",
-        "start": 11,
-        "end": 20,
-        "confidence_entity": 0.5094622373580933,
-        "value": "pengajian",
         "extractor": "DIETClassifier",
         "processors": [
           "EntitySynonymMapper"
@@ -562,7 +551,7 @@
         "entity": "mention",
         "start": 21,
         "end": 25,
-        "confidence_entity": 0.9980714917182922,
+        "confidence_entity": 0.9984697699546814,
         "value": "tadi",
         "extractor": "DIETClassifier",
         "processors": [
@@ -598,8 +587,19 @@
         "entity": "attribute",
         "start": 6,
         "end": 11,
-        "confidence_entity": 0.9977557063102722,
+        "confidence_entity": 0.9988596439361572,
         "value": "pembicara",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "object_type",
+        "start": 12,
+        "end": 21,
+        "confidence_entity": 0.6012002229690552,
+        "value": "pengajian",
         "extractor": "DIETClassifier",
         "processors": [
           "EntitySynonymMapper"
@@ -609,7 +609,7 @@
         "entity": "mention",
         "start": 22,
         "end": 26,
-        "confidence_entity": 0.9982450008392334,
+        "confidence_entity": 0.9982448816299438,
         "value": "tadi",
         "extractor": "DIETClassifier",
         "processors": [
@@ -639,7 +639,7 @@
         "entity": "attribute",
         "start": 6,
         "end": 15,
-        "confidence_entity": 0.9979900121688843,
+        "confidence_entity": 0.9987302422523499,
         "value": "pembicara",
         "extractor": "DIETClassifier",
         "processors": [
@@ -650,7 +650,7 @@
         "entity": "pengajian",
         "start": 31,
         "end": 40,
-        "confidence_entity": 0.9988049268722534,
+        "confidence_entity": 0.9986957907676697,
         "value": "tadarusan",
         "extractor": "DIETClassifier",
         "processors": [
@@ -687,7 +687,7 @@
         "entity": "attribute",
         "start": 6,
         "end": 13,
-        "confidence_entity": 0.9986031651496887,
+        "confidence_entity": 0.9995211362838745,
         "value": "pembicara",
         "extractor": "DIETClassifier",
         "processors": [
@@ -698,7 +698,7 @@
         "entity": "pengajian",
         "start": 29,
         "end": 38,
-        "confidence_entity": 0.9988228678703308,
+        "confidence_entity": 0.9986769556999207,
         "value": "tadarusan",
         "extractor": "DIETClassifier",
         "processors": [
@@ -735,7 +735,7 @@
         "entity": "attribute",
         "start": 7,
         "end": 13,
-        "confidence_entity": 0.9984756112098694,
+        "confidence_entity": 0.9991080164909363,
         "value": "tempat",
         "extractor": "DIETClassifier",
         "processors": [
@@ -746,7 +746,7 @@
         "entity": "pengajian",
         "start": 24,
         "end": 33,
-        "confidence_entity": 0.9987831711769104,
+        "confidence_entity": 0.9987976551055908,
         "value": "tadarusan",
         "extractor": "DIETClassifier",
         "processors": [
@@ -777,7 +777,7 @@
         "entity": "object_type",
         "start": 28,
         "end": 33,
-        "confidence_entity": 0.9964513778686523,
+        "confidence_entity": 0.9951797723770142,
         "value": "solat",
         "extractor": "DIETClassifier",
         "processors": [
@@ -801,7 +801,7 @@
         "entity": "object_type",
         "start": 18,
         "end": 23,
-        "confidence_entity": 0.9942060112953186,
+        "confidence_entity": 0.992809534072876,
         "value": "solat",
         "extractor": "DIETClassifier",
         "processors": [
@@ -831,7 +831,7 @@
         "entity": "object_type",
         "start": 9,
         "end": 14,
-        "confidence_entity": 0.8806776404380798,
+        "confidence_entity": 0.9705816507339478,
         "value": "solat",
         "extractor": "DIETClassifier",
         "processors": [
@@ -842,7 +842,7 @@
         "entity": "jenis",
         "start": 15,
         "end": 20,
-        "confidence_entity": 0.9944508671760559,
+        "confidence_entity": 0.99297696352005,
         "value": "wajib",
         "extractor": "DIETClassifier",
         "processors": [
@@ -872,7 +872,7 @@
         "entity": "object_type",
         "start": 0,
         "end": 5,
-        "confidence_entity": 0.962497889995575,
+        "confidence_entity": 0.9685026407241821,
         "value": "solat",
         "extractor": "DIETClassifier",
         "processors": [
@@ -883,7 +883,7 @@
         "entity": "jenis",
         "start": 6,
         "end": 12,
-        "confidence_entity": 0.993962824344635,
+        "confidence_entity": 0.9949371814727783,
         "value": "sunnah",
         "extractor": "DIETClassifier",
         "processors": [
@@ -913,7 +913,7 @@
         "entity": "attribute",
         "start": 0,
         "end": 5,
-        "confidence_entity": 0.9985615611076355,
+        "confidence_entity": 0.9993240833282471,
         "value": "jadwal",
         "extractor": "DIETClassifier",
         "processors": [
@@ -924,7 +924,7 @@
         "entity": "solat",
         "start": 16,
         "end": 29,
-        "confidence_entity": 0.9541129469871521,
+        "confidence_entity": 0.9759776592254639,
         "value": "solat maghrib",
         "extractor": "DIETClassifier",
         "processors": [
@@ -961,7 +961,7 @@
         "entity": "attribute",
         "start": 0,
         "end": 5,
-        "confidence_entity": 0.9986170530319214,
+        "confidence_entity": 0.9994518160820007,
         "value": "jadwal",
         "extractor": "DIETClassifier",
         "processors": [
@@ -972,7 +972,7 @@
         "entity": "mention",
         "start": 22,
         "end": 30,
-        "confidence_entity": 0.9972688555717468,
+        "confidence_entity": 0.9972625970840454,
         "value": "tersebut",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1002,7 +1002,7 @@
         "entity": "attribute",
         "start": 0,
         "end": 3,
-        "confidence_entity": 0.9930828809738159,
+        "confidence_entity": 0.9984912872314453,
         "value": "jam",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1013,7 +1013,7 @@
         "entity": "solat",
         "start": 11,
         "end": 22,
-        "confidence_entity": 0.9782837629318237,
+        "confidence_entity": 0.9851303100585938,
         "value": "solat zuhur",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1050,7 +1050,7 @@
         "entity": "attribute",
         "start": 0,
         "end": 3,
-        "confidence_entity": 0.9801812767982483,
+        "confidence_entity": 0.9951926469802856,
         "value": "jam",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1061,7 +1061,7 @@
         "entity": "mention",
         "start": 17,
         "end": 20,
-        "confidence_entity": 0.9962804913520813,
+        "confidence_entity": 0.9969977140426636,
         "value": "itu",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1091,7 +1091,7 @@
         "entity": "solat",
         "start": 0,
         "end": 11,
-        "confidence_entity": 0.8916963934898376,
+        "confidence_entity": 0.9420323967933655,
         "value": "solat ashar",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1102,7 +1102,7 @@
         "entity": "attribute",
         "start": 12,
         "end": 16,
-        "confidence_entity": 0.9981617331504822,
+        "confidence_entity": 0.9985964894294739,
         "value": "tujuan",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1139,7 +1139,7 @@
         "entity": "mention",
         "start": 6,
         "end": 9,
-        "confidence_entity": 0.9960706233978271,
+        "confidence_entity": 0.9961696267127991,
         "value": "itu",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1150,7 +1150,7 @@
         "entity": "attribute",
         "start": 10,
         "end": 15,
-        "confidence_entity": 0.695669949054718,
+        "confidence_entity": 0.9162861704826355,
         "value": "tujuan",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1174,7 +1174,7 @@
         "entity": "object_type",
         "start": 28,
         "end": 36,
-        "confidence_entity": 0.9812986254692078,
+        "confidence_entity": 0.9675517678260803,
         "value": "penyakit",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1198,7 +1198,7 @@
         "entity": "object_type",
         "start": 0,
         "end": 8,
-        "confidence_entity": 0.9180083870887756,
+        "confidence_entity": 0.9576942920684814,
         "value": "penyakit",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1222,7 +1222,7 @@
         "entity": "object_type",
         "start": 12,
         "end": 17,
-        "confidence_entity": 0.9882617592811584,
+        "confidence_entity": 0.9893855452537537,
         "value": "penyakit",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1252,7 +1252,7 @@
         "entity": "penyakit",
         "start": 0,
         "end": 8,
-        "confidence_entity": 0.9689045548439026,
+        "confidence_entity": 0.9449270963668823,
         "value": "penyakit",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1263,7 +1263,7 @@
         "entity": "attribute",
         "start": 9,
         "end": 16,
-        "confidence_entity": 0.997218132019043,
+        "confidence_entity": 0.9990476965904236,
         "value": "obat",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1300,7 +1300,7 @@
         "entity": "attribute",
         "start": 0,
         "end": 11,
-        "confidence_entity": 0.9987290501594543,
+        "confidence_entity": 0.9993560910224915,
         "value": "penyebab",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1311,7 +1311,7 @@
         "entity": "penyakit",
         "start": 12,
         "end": 20,
-        "confidence_entity": 0.9794081449508667,
+        "confidence_entity": 0.968852162361145,
         "value": "penyakit",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1348,7 +1348,7 @@
         "entity": "attribute",
         "start": 0,
         "end": 8,
-        "confidence_entity": 0.9985162615776062,
+        "confidence_entity": 0.9991393089294434,
         "value": "penyebab",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1359,7 +1359,7 @@
         "entity": "penyakit",
         "start": 18,
         "end": 26,
-        "confidence_entity": 0.9743068814277649,
+        "confidence_entity": 0.967893123626709,
         "value": "penyakit",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1396,7 +1396,7 @@
         "entity": "attribute",
         "start": 0,
         "end": 6,
-        "confidence_entity": 0.9985465407371521,
+        "confidence_entity": 0.9989724159240723,
         "value": "penyebab",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1407,7 +1407,7 @@
         "entity": "penyakit",
         "start": 18,
         "end": 26,
-        "confidence_entity": 0.9679144620895386,
+        "confidence_entity": 0.9627071022987366,
         "value": "penyakit",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1444,7 +1444,7 @@
         "entity": "attribute",
         "start": 0,
         "end": 6,
-        "confidence_entity": 0.9987403750419617,
+        "confidence_entity": 0.9991543292999268,
         "value": "gejala",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1455,7 +1455,7 @@
         "entity": "penyakit",
         "start": 16,
         "end": 24,
-        "confidence_entity": 0.9743127822875977,
+        "confidence_entity": 0.9684301614761353,
         "value": "penyakit",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1492,7 +1492,7 @@
         "entity": "penyakit",
         "start": 9,
         "end": 17,
-        "confidence_entity": 0.9756010174751282,
+        "confidence_entity": 0.9696560502052307,
         "value": "penyakit",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1503,7 +1503,7 @@
         "entity": "attribute",
         "start": 18,
         "end": 27,
-        "confidence_entity": 0.9990948438644409,
+        "confidence_entity": 0.9991994500160217,
         "value": "gejala",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1540,7 +1540,7 @@
         "entity": "attribute",
         "start": 0,
         "end": 5,
-        "confidence_entity": 0.9981470108032227,
+        "confidence_entity": 0.9993950128555298,
         "value": "gejala",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1551,7 +1551,7 @@
         "entity": "penyakit",
         "start": 15,
         "end": 23,
-        "confidence_entity": 0.9736278057098389,
+        "confidence_entity": 0.9680744409561157,
         "value": "penyakit",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1582,7 +1582,55 @@
         "entity": "object_type",
         "start": 18,
         "end": 29,
-        "confidence_entity": 0.9430386424064636,
+        "confidence_entity": 0.8790814876556396,
+        "value": "obat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "mau tanya tentang obat-obatan",
+    "entities": [
+      {
+        "start": 18,
+        "end": 29,
+        "value": "obat",
+        "entity": "object_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_type",
+        "start": 18,
+        "end": 29,
+        "confidence_entity": 0.9959821701049805,
+        "value": "obat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "saya mau bertanya tentang obat-obatan",
+    "entities": [
+      {
+        "start": 26,
+        "end": 37,
+        "value": "obat",
+        "entity": "object_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_type",
+        "start": 26,
+        "end": 37,
+        "confidence_entity": 0.9970511198043823,
         "value": "obat",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1606,7 +1654,7 @@
         "entity": "object_type",
         "start": 0,
         "end": 4,
-        "confidence_entity": 0.9857028126716614,
+        "confidence_entity": 0.987051248550415,
         "value": "obat",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1630,7 +1678,7 @@
         "entity": "object_type",
         "start": 16,
         "end": 20,
-        "confidence_entity": 0.965485155582428,
+        "confidence_entity": 0.9688243269920349,
         "value": "obat",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1660,7 +1708,7 @@
         "entity": "object_type",
         "start": 0,
         "end": 4,
-        "confidence_entity": 0.8648746013641357,
+        "confidence_entity": 0.9021351933479309,
         "value": "obat",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1671,7 +1719,7 @@
         "entity": "penyakit",
         "start": 35,
         "end": 43,
-        "confidence_entity": 0.8319452404975891,
+        "confidence_entity": 0.9070632457733154,
         "value": "penyakit",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1708,7 +1756,7 @@
         "entity": "object_type",
         "start": 0,
         "end": 4,
-        "confidence_entity": 0.8416104912757874,
+        "confidence_entity": 0.7909558415412903,
         "value": "obat",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1719,7 +1767,7 @@
         "entity": "penyakit",
         "start": 20,
         "end": 28,
-        "confidence_entity": 0.9196826219558716,
+        "confidence_entity": 0.9442737698554993,
         "value": "penyakit",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1756,7 +1804,7 @@
         "entity": "mention",
         "start": 5,
         "end": 8,
-        "confidence_entity": 0.9976715445518494,
+        "confidence_entity": 0.9975932240486145,
         "value": "ini",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1767,7 +1815,7 @@
         "entity": "attribute",
         "start": 17,
         "end": 22,
-        "confidence_entity": 0.9966366291046143,
+        "confidence_entity": 0.9983921647071838,
         "value": "jadwal",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1797,7 +1845,7 @@
         "entity": "obat",
         "start": 5,
         "end": 14,
-        "confidence_entity": 0.9954545497894287,
+        "confidence_entity": 0.9928117394447327,
         "value": "metformin",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1808,7 +1856,7 @@
         "entity": "attribute",
         "start": 23,
         "end": 28,
-        "confidence_entity": 0.996687114238739,
+        "confidence_entity": 0.9984138011932373,
         "value": "jadwal",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1845,7 +1893,7 @@
         "entity": "attribute",
         "start": 14,
         "end": 25,
-        "confidence_entity": 0.9472537040710449,
+        "confidence_entity": 0.9857364296913147,
         "value": "larangan",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1856,7 +1904,7 @@
         "entity": "mention",
         "start": 53,
         "end": 56,
-        "confidence_entity": 0.9955508708953857,
+        "confidence_entity": 0.9980239868164062,
         "value": "itu",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1886,7 +1934,7 @@
         "entity": "attribute",
         "start": 14,
         "end": 25,
-        "confidence_entity": 0.9665519595146179,
+        "confidence_entity": 0.9881961345672607,
         "value": "larangan",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1897,7 +1945,7 @@
         "entity": "obat",
         "start": 53,
         "end": 64,
-        "confidence_entity": 0.991569995880127,
+        "confidence_entity": 0.9937291145324707,
         "value": "paracetamol",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1934,7 +1982,7 @@
         "entity": "attribute",
         "start": 0,
         "end": 12,
-        "confidence_entity": 0.8655620217323303,
+        "confidence_entity": 0.9397714734077454,
         "value": "dosis",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1945,7 +1993,7 @@
         "entity": "mention",
         "start": 13,
         "end": 16,
-        "confidence_entity": 0.99625563621521,
+        "confidence_entity": 0.9959845542907715,
         "value": "nya",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1975,7 +2023,7 @@
         "entity": "attribute",
         "start": 0,
         "end": 12,
-        "confidence_entity": 0.9258023500442505,
+        "confidence_entity": 0.9526568055152893,
         "value": "dosis",
         "extractor": "DIETClassifier",
         "processors": [
@@ -1986,7 +2034,7 @@
         "entity": "obat",
         "start": 13,
         "end": 20,
-        "confidence_entity": 0.9929019808769226,
+        "confidence_entity": 0.9939789772033691,
         "value": "aspirin",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2023,7 +2071,7 @@
         "entity": "object_type",
         "start": 9,
         "end": 22,
-        "confidence_entity": 0.9904208183288574,
+        "confidence_entity": 0.9976136684417725,
         "value": "personal",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2034,7 +2082,7 @@
         "entity": "nama_orang",
         "start": 23,
         "end": 27,
-        "confidence_entity": 0.9978410005569458,
+        "confidence_entity": 0.9969092011451721,
         "value": "budi",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2071,7 +2119,7 @@
         "entity": "object_type",
         "start": 4,
         "end": 17,
-        "confidence_entity": 0.9904940724372864,
+        "confidence_entity": 0.9976152181625366,
         "value": "personal",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2082,7 +2130,7 @@
         "entity": "nama_orang",
         "start": 18,
         "end": 22,
-        "confidence_entity": 0.997767448425293,
+        "confidence_entity": 0.9970536231994629,
         "value": "budi",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2119,7 +2167,7 @@
         "entity": "object_type",
         "start": 0,
         "end": 13,
-        "confidence_entity": 0.9695368409156799,
+        "confidence_entity": 0.9853727221488953,
         "value": "personal",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2130,7 +2178,7 @@
         "entity": "nama_orang",
         "start": 14,
         "end": 18,
-        "confidence_entity": 0.9971156120300293,
+        "confidence_entity": 0.996756374835968,
         "value": "budi",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2167,7 +2215,7 @@
         "entity": "object_type",
         "start": 0,
         "end": 13,
-        "confidence_entity": 0.9725239276885986,
+        "confidence_entity": 0.9920430779457092,
         "value": "personal",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2178,7 +2226,7 @@
         "entity": "nama_orang",
         "start": 14,
         "end": 18,
-        "confidence_entity": 0.9979521632194519,
+        "confidence_entity": 0.9973377585411072,
         "value": "budi",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2209,7 +2257,7 @@
         "entity": "object_type",
         "start": 0,
         "end": 4,
-        "confidence_entity": 0.949962317943573,
+        "confidence_entity": 0.9837567806243896,
         "value": "lagu_lagu",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2233,7 +2281,7 @@
         "entity": "object_type",
         "start": 0,
         "end": 4,
-        "confidence_entity": 0.9415469169616699,
+        "confidence_entity": 0.9785048961639404,
         "value": "lagu_lagu",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2263,7 +2311,7 @@
         "entity": "attribute",
         "start": 0,
         "end": 7,
-        "confidence_entity": 0.9993889331817627,
+        "confidence_entity": 0.9994818568229675,
         "value": "url",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2274,7 +2322,7 @@
         "entity": "lagu_lagu",
         "start": 13,
         "end": 36,
-        "confidence_entity": 0.9974697828292847,
+        "confidence_entity": 0.9979405999183655,
         "value": "metallica enter sandman",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2311,7 +2359,7 @@
         "entity": "attribute",
         "start": 0,
         "end": 7,
-        "confidence_entity": 0.9992140531539917,
+        "confidence_entity": 0.9993482232093811,
         "value": "url",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2322,7 +2370,7 @@
         "entity": "lagu_lagu",
         "start": 8,
         "end": 21,
-        "confidence_entity": 0.9977735877037048,
+        "confidence_entity": 0.9969782829284668,
         "value": "metallica one",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2359,7 +2407,7 @@
         "entity": "attribute",
         "start": 0,
         "end": 5,
-        "confidence_entity": 0.9982872605323792,
+        "confidence_entity": 0.9992448091506958,
         "value": "url",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2370,7 +2418,7 @@
         "entity": "lagu_lagu",
         "start": 11,
         "end": 38,
-        "confidence_entity": 0.9975451827049255,
+        "confidence_entity": 0.9969624876976013,
         "value": "metallica master of puppets",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2407,7 +2455,7 @@
         "entity": "attribute",
         "start": 0,
         "end": 7,
-        "confidence_entity": 0.9992307424545288,
+        "confidence_entity": 0.9995014667510986,
         "value": "url",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2418,7 +2466,7 @@
         "entity": "lagu_lagu",
         "start": 13,
         "end": 35,
-        "confidence_entity": 0.8583714365959167,
+        "confidence_entity": 0.9121204018592834,
         "value": "frank sinatra new york",
         "extractor": "DIETClassifier"
       },
@@ -2426,7 +2474,7 @@
         "entity": "lagu_lagu",
         "start": 37,
         "end": 45,
-        "confidence_entity": 0.9576430916786194,
+        "confidence_entity": 0.9440544247627258,
         "value": "new york",
         "extractor": "DIETClassifier"
       },
@@ -2460,7 +2508,7 @@
         "entity": "attribute",
         "start": 0,
         "end": 7,
-        "confidence_entity": 0.9993205070495605,
+        "confidence_entity": 0.9995421171188354,
         "value": "url",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2471,7 +2519,7 @@
         "entity": "lagu_lagu",
         "start": 13,
         "end": 36,
-        "confidence_entity": 0.995717465877533,
+        "confidence_entity": 0.9953138828277588,
         "value": "westlife i have a dream",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2501,7 +2549,7 @@
         "entity": "attribute",
         "start": 0,
         "end": 7,
-        "confidence_entity": 0.9994008541107178,
+        "confidence_entity": 0.9995039701461792,
         "value": "url",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2512,7 +2560,7 @@
         "entity": "lagu_lagu",
         "start": 13,
         "end": 32,
-        "confidence_entity": 0.9964972138404846,
+        "confidence_entity": 0.9977408647537231,
         "value": "westlife fool again",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2542,7 +2590,7 @@
         "entity": "attribute",
         "start": 0,
         "end": 7,
-        "confidence_entity": 0.9993151426315308,
+        "confidence_entity": 0.9995217323303223,
         "value": "url",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2553,7 +2601,7 @@
         "entity": "lagu_lagu",
         "start": 13,
         "end": 42,
-        "confidence_entity": 0.9974363446235657,
+        "confidence_entity": 0.9974693059921265,
         "value": "bon jovi wanted dead or alive",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2583,7 +2631,7 @@
         "entity": "attribute",
         "start": 0,
         "end": 7,
-        "confidence_entity": 0.9992647767066956,
+        "confidence_entity": 0.9995148181915283,
         "value": "url",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2594,7 +2642,7 @@
         "entity": "lagu_lagu",
         "start": 13,
         "end": 46,
-        "confidence_entity": 0.9958266615867615,
+        "confidence_entity": 0.997227132320404,
         "value": "bon jovi you give love a bad name",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2631,7 +2679,7 @@
         "entity": "attribute",
         "start": 0,
         "end": 7,
-        "confidence_entity": 0.9993581175804138,
+        "confidence_entity": 0.9994280934333801,
         "value": "url",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2642,7 +2690,7 @@
         "entity": "lagu_lagu",
         "start": 13,
         "end": 38,
-        "confidence_entity": 0.8038903474807739,
+        "confidence_entity": 0.8036928772926331,
         "value": "the beatles come together",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2672,7 +2720,7 @@
         "entity": "attribute",
         "start": 0,
         "end": 7,
-        "confidence_entity": 0.999369204044342,
+        "confidence_entity": 0.9994503855705261,
         "value": "url",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2683,7 +2731,7 @@
         "entity": "lagu_lagu",
         "start": 13,
         "end": 24,
-        "confidence_entity": 0.9323978424072266,
+        "confidence_entity": 0.9634385108947754,
         "value": "the beatles",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2713,7 +2761,7 @@
         "entity": "object_type",
         "start": 0,
         "end": 8,
-        "confidence_entity": 0.9983365535736084,
+        "confidence_entity": 0.9986799359321594,
         "value": "kegiatan",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2724,7 +2772,7 @@
         "entity": "jam",
         "start": 13,
         "end": 18,
-        "confidence_entity": 0.9930382370948792,
+        "confidence_entity": 0.9957700371742249,
         "value": "12.00",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2761,7 +2809,7 @@
         "entity": "object_type",
         "start": 0,
         "end": 8,
-        "confidence_entity": 0.9983365535736084,
+        "confidence_entity": 0.9986799359321594,
         "value": "kegiatan",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2772,7 +2820,7 @@
         "entity": "jam",
         "start": 13,
         "end": 18,
-        "confidence_entity": 0.9930382370948792,
+        "confidence_entity": 0.9957700371742249,
         "value": "09.00",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2809,7 +2857,7 @@
         "entity": "object_type",
         "start": 0,
         "end": 11,
-        "confidence_entity": 0.9925429821014404,
+        "confidence_entity": 0.9976046085357666,
         "value": "personal",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2820,7 +2868,7 @@
         "entity": "tanggal_lahir",
         "start": 20,
         "end": 30,
-        "confidence_entity": 0.9922164678573608,
+        "confidence_entity": 0.9941321015357971,
         "value": "01-01-1990",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2850,7 +2898,7 @@
         "entity": "object_type",
         "start": 0,
         "end": 11,
-        "confidence_entity": 0.9925429821014404,
+        "confidence_entity": 0.9976046085357666,
         "value": "personal",
         "extractor": "DIETClassifier",
         "processors": [
@@ -2861,7 +2909,7 @@
         "entity": "tanggal_lahir",
         "start": 20,
         "end": 30,
-        "confidence_entity": 0.9922164678573608,
+        "confidence_entity": 0.9941321015357971,
         "value": "02-02-1992",
         "extractor": "DIETClassifier",
         "processors": [
