@@ -1,28 +1,39 @@
 version: "3.1"
 
 rules:
-    - rule: Say goodbye anytime the user says goodbye
-      steps:
-          - intent: deny
-          - action: utter_goodbye
+  - rule: Say goodbye anytime the user says goodbye
+    steps:
+      - intent: deny
+      - action: utter_goodbye
 
-    - rule: Say 'I am a bot' anytime the user challenges
-      steps:
-          - intent: bot_challenge
-          - action: utter_greet
+  - rule: Say 'I am a bot' anytime the user challenges
+    steps:
+      - intent: bot_challenge
+      - action: utter_greet
 
-    - rule: Kegiatan Sehari hari
-      steps:
-          - intent: query_kegiatan
-          - action: action_query_kegiatan
+  - rule: Kegiatan Sehari hari
+    steps:
+      - intent: query_kegiatan
+      - action: action_query_kegiatan
 
-    - rule: Ulang Tahun
-      steps:
-          - intent: query_ulang_tahun
-          - action: action_query_ulang_tahun
-          - action: action_query_lagu_ulang_tahun
+  - rule: Ulang Tahun
+    steps:
+      - intent: query_ulang_tahun
+      - action: action_query_ulang_tahun
+      - action: action_query_lagu_ulang_tahun
 
-    - rule: Ulang Tahun
-      steps:
-          - intent: command_stop
-          - action: action_query_stop
+  - rule: Ulang Tahun
+    steps:
+      - intent: command_stop
+      - action: action_query_stop
+
+  - rule: Play music video when session starts
+    condition:
+      - active_loop: null
+      - slot_was_set:
+      - video_played: false
+    steps:
+      - action: action_lagu_otomatis
+      - action: action_reset_lagu_otomatis_slot
+      - slot_was_set:
+          - video_played: true

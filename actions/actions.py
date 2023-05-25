@@ -20,6 +20,7 @@ from collections import defaultdict
 
 from rasa_sdk import utils, Tracker, Action
 
+from rasa_sdk.events import SlotSet
 
 class ActionPengajian(ActionQueryKnowledgeBase):
     def name(self) -> Text:
@@ -491,3 +492,46 @@ class ActionLagu(ActionQueryKnowledgeBase):
             dispatcher.utter_message(
                 text=f"Maaf, saya kurang paham mengenai informasi {object_type} tersebut."
             )
+
+class ActionLaguOtomatis(Action):
+    def name(self) -> Text:
+        return "action_lagu_otomatis"
+
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]
+    ) -> List[Dict[Text, Any]]:
+        # Load the knowledge base JSON file
+        with open("lagu_lagu.json") as f:
+            knowledge_base = json.load(f)
+
+        # Randomly select a music video from the knowledge base
+        music_video = random.choice(knowledge_base)
+
+        # Get the title and URL of the selected music video
+        video_title = music_video["nama"]
+        video_url = music_video["url"]
+
+        # Create a message to send to the user
+        message = f"Playing music video: {video_title}\n{video_url}"
+
+        # Send the message to the user
+        dispatcher.utter_message(text=message)
+
+        return [SlotSet("video_played", True)]
+
+
+class ActionResetVideoPlayedSlot(Action):
+    def name(self) -> Text:
+        return "action_reset_lagu_otomatis_slot"
+
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any]
+    ) -> List[Dict[Text, Any]]:
+        return [SlotSet("video_played", False)]
+    

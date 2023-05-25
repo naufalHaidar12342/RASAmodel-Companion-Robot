@@ -150,6 +150,13 @@ slots:
             - type: from_entity
               entity: lagu_lagu
 
+    video_played:
+        type: bool
+        initial_value: false
+        mappings:
+            - type: from_entity
+              entity: lagu_lagu
+
 actions:
     - action_ask_again
     - action_query_pengajian
