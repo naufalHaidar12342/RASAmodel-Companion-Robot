@@ -9,103 +9,157 @@ stories:
         intent: query_pengajian
       - action: action_query_pengajian
       - action: action_ask_again
-      - user: |
-          tadarusan suruh bawa apa ya ?
-        intent: query_pengajian
-      - action: action_query_pengajian
-      - action: action_ask_again
+
+  - story: pengajian test path 2
+    steps:
       - user: |
           pengajian fikih hari apa ?
         intent: query_pengajian
       - action: action_query_pengajian
       - action: action_ask_again
 
-  - story: pengajian test path 2
+  - story: pengajian test path 3
     steps:
       - user: |
           tafsir alquran hari apa ?
         intent: query_pengajian
       - action: action_query_pengajian
       - action: action_ask_again
+
+  - story: pengajian test path 4
+    steps:
       - user: |
-          tafsir alquran untuk apa ?
+          Ada pengajian nggak?
         intent: query_pengajian
       - action: action_query_pengajian
       - action: action_ask_again
+
+  - story: pengajian test path 5
+    steps:
+      - user: |
+          tadarusan suruh bawa apa ya ?
+        intent: query_pengajian
+      - action: action_query_pengajian
+      - action: action_ask_again
+
+  - story: pengajian test path 6
+    steps:
       - user: |
           tafsir hadist itu apa?
         intent: query_pengajian
       - action: action_query_pengajian
       - action: action_ask_again
 
-  - story: penyakit test path 1
+  - story: pengajian test path 7
     steps:
       - user: |
-          saya mau bertanya tentang penyakit
-        intent: query_penyakit
-      - action: action_query_penyakit
-      - action: action_ask_again
-      - user: |
-          penyebabnya diabetes apa ?
-        intent: query_penyakit
-      - action: action_query_penyakit
-      - action: action_ask_again
-      - user: |
-          diabetes obatnya apa ?
-        intent: query_penyakit
-      - action: action_query_penyakit
+          Saya pengen ikut pengajian, tapi bingung dimana.
+        intent: query_pengajian
+      - action: action_query_pengajian
       - action: action_ask_again
 
-  - story: obat test path 1
+  - story: pengajian test path 8
     steps:
       - user: |
-          saya mau bertanya tentang obat-obatan
-        intent: query_obat
-      - action: action_query_obat
-      - action: action_ask_again
-      - user: |
-          obat untuk diabetes apa ?
-        intent: query_obat
-      - action: action_query_obat
+          Pengajian fikih ada kapan ya?
+      - intent: query_pengajian
+      - action: action_query_pengajian
       - action: action_ask_again
 
-  - story: obat test path 2
+  - story: pengajian test path 9
     steps:
       - user: |
-          obat disini apa saja?
-        intent: query_obat
-      - action: action_query_obat
-      - action: action_ask_again
-      - user: |
-          obat metformin itu apa?
-        intent: query_obat
-      - action: action_query_obat
+          Coba infoin pengajian agama Islam.
+      - intent: query_pengajian
+      - action: action_query_pengajian
       - action: action_ask_again
 
-  - story: salat test path 1
+  - story: pengajian test path 10
     steps:
       - user: |
-          mau tanya tentang solat
-        intent: query_solat
-      - action: action_query_solat
-      - action: action_ask_again
-      - user: |
-          kapan melakukan solat maghrib
-        intent: query_solat
-      - action: action_query_solat
+          Coba infoin pengajian agama Islam.
+      - intent: query_pengajian
+      - action: action_query_pengajian
       - action: action_ask_again
 
-  - story: salat test path 2
+  - story: pengajian test path 11
     steps:
       - user: |
-          kapan waktu solat maghrib?
-        intent: query_solat
-      - action: action_query_solat
+          Pengajian hari ini ada apa aja?
+      - intent: query_pengajian
+      - action: action_query_pengajian
       - action: action_ask_again
+
+  - story: pengajian test path 12
+    steps:
       - user: |
-          solat hajat untuk apa?
-        intent: query_solat
-      - action: action_query_solat
+          Pagi, bisa kasih info pengajian malam ini?
+      - intent: query_pengajian
+      - action: action_query_pengajian
+      - action: action_ask_again
+
+  - story: pengajian test path 13
+    steps:
+      - user: |
+          Ayo ikutan pengajian bareng, mau?
+      - intent: query_pengajian
+      - action: action_query_pengajian
+      - action: action_ask_again
+
+  - story: pengajian test path 14
+    steps:
+      - user: |
+          Hai, mau nanya dong pengajian ada di mana?
+      - intent: query_pengajian
+      - action: action_query_pengajian
+      - action: action_ask_again
+
+  - story: pengajian test path 15
+    steps:
+      - user: |
+          Ada tadarusan nggak?
+      - intent: query_pengajian
+      - action: action_query_pengajian
+      - action: action_ask_again
+
+  - story: pengajian test path 16
+    steps:
+      - user: |
+          Mohon info jadwal pengajian fikih.
+      - intent: query_pengajian
+      - action: action_query_pengajian
+      - action: action_ask_again
+
+  - story: pengajian test path 17
+    steps:
+      - user: |
+          Malem, mau tanya tentang pengajian.
+      - intent: query_pengajian
+      - action: action_query_pengajian
+      - action: action_ask_again
+
+  - story: pengajian test path 18
+    steps:
+      - user: |
+          Ada pengajian nggak nanti malam?
+      - intent: query_pengajian
+      - action: action_query_pengajian
+      - action: action_ask_again
+
+  - story: pengajian test path 19
+    steps:
+      - user: |
+          Ada tadarusan nggak?
+      - intent: query_pengajian
+      - action: action_query_pengajian
+      - action: action_ask_again
+
+  - story: pengajian test path 20
+    steps:
+      - user: |
+          Tanya dong, pengajian hari ini ada tema apa?
+      - intent: query_pengajian
+      - action: action_query_pengajian
       - action: action_ask_again
 
   - story: lagu-lagu test path 1
@@ -115,21 +169,146 @@ stories:
         intent: query_lagu_lagu
       - action: action_query_lagu_lagu
       - action: action_ask_again
+
+  - story: lagu-lagu test path 2
+    steps:
       - user: |
           mainkan lagu westlife fool again
         intent: query_solat
       - action: action_query_solat
       - action: action_ask_again
 
-  - story: lagu-lagu test path 2
+  - story: lagu-lagu test path 3
     steps:
       - user: |
           lagu apa saja yang kamu ketahui?
         intent: query_lagu_lagu
       - action: action_query_lagu_lagu
       - action: action_ask_again
+
+  - story: lagu-lagu test path 4
+    steps:
       - user: |
           putar lagu the beatles
+        intent: query_lagu_lagu
+      - action: action_query_lagu_lagu
+      - action: action_ask_again
+
+  - story: lagu-lagu test path 5
+    steps:
+      - user: |
+          Bang, bisa putar lagu 'Rindu' dari Kerispatih?
+        intent: query_lagu_lagu
+      - action: action_query_lagu_lagu
+      - action: action_ask_again
+
+  - story: lagu-lagu test path 6
+    steps:
+      - user: |
+          Bisakah Anda memutar lagu 'Pergi Pagi Pulang Pagi' dari Armada?
+        intent: query_lagu_lagu
+      - action: action_query_lagu_lagu
+      - action: action_ask_again
+
+  - story: lagu-lagu test path 7
+    steps:
+      - user: |
+          Eh, aku lupa judulnya tapi itu lagu hits yang sering diputar di radio. Bisa tolong cari?
+        intent: query_lagu_lagu
+      - action: action_query_lagu_lagu
+      - action: action_ask_again
+
+  - story: lagu-lagu test path 8
+    steps:
+      - user: |
+          tahu nggak lagu yang lagi hits sekarang? mau dengerin nih.
+        intent: query_lagu_lagu
+      - action: action_query_lagu_lagu
+      - action: action_ask_again
+  - story: lagu-lagu test path 9
+    steps:
+      - user: |
+          Apakah Anda bisa memutar lagu 'Tentang Rindu' dari Virzha? Saya ingin mendengarnya.
+        intent: query_lagu_lagu
+      - action: action_query_lagu_lagu
+      - action: action_ask_again
+
+  - story: lagu-lagu test path 10
+    steps:
+      - user: |
+          Aduh, itu lagu yang ada suara keroncongnya. Ada yang tau judulnya gak?
+        intent: query_lagu_lagu
+      - action: action_query_lagu_lagu
+      - action: action_ask_again
+
+  - story: lagu-lagu test path 11
+    steps:
+      - user: |
+          Bang, tolong putar lagu 'Laskar Pelangi' dari Nidji dong!
+        intent: query_lagu_lagu
+      - action: action_query_lagu_lagu
+      - action: action_ask_again
+
+  - story: lagu-lagu test path 12
+    steps:
+      - user: |
+          Mohon maaf, bolehkah saya mendengarkan lagu 'Kisah Klasik Untuk Masa Depan' dari Sheila on 7?
+        intent: query_lagu_lagu
+      - action: action_query_lagu_lagu
+      - action: action_ask_again
+
+  - story: lagu-lagu test path 13
+    steps:
+      - user: |
+          Ada lagu yang enak didengar buat dinikmati sore ini. Ada saran?
+        intent: query_lagu_lagu
+      - action: action_query_lagu_lagu
+      - action: action_ask_again
+
+  - story: lagu-lagu test path 14
+    steps:
+      - user: |
+          Bro, tau nggak lagu dangdut yang lagi hits sekarang? Pengen goyang-goyang nih!
+        intent: query_lagu_lagu
+      - action: action_query_lagu_lagu
+      - action: action_ask_again
+
+  - story: lagu-lagu test path 15
+    steps:
+      - user: |
+          Apakah bisa Anda memutar lagu 'Bukti' dari Virgoun? Saya ingin menikmatinya.
+        intent: query_lagu_lagu
+      - action: action_query_lagu_lagu
+      - action: action_ask_again
+
+  - story: lagu-lagu test path 16
+    steps:
+      - user: |
+          Eh, aku suka lagu yang ada nada reggae-nya. Ada rekomendasi?
+        intent: query_lagu_lagu
+      - action: action_query_lagu_lagu
+      - action: action_ask_again
+
+  - story: lagu-lagu test path 17
+    steps:
+      - user: |
+          Sis, bisa gak kamu putar lagu 'Separuh Aku' dari Noah? Lagi pengen dengerin.
+        intent: query_lagu_lagu
+      - action: action_query_lagu_lagu
+      - action: action_ask_again
+
+  - story: lagu-lagu test path 18
+    steps:
+      - user: |
+          Bisakah Anda memainkan lagu 'Takkan Terganti' dari Kahitna? Saya sangat menyukainya.
+        intent: query_lagu_lagu
+      - action: action_query_lagu_lagu
+      - action: action_ask_again
+
+  - story: lagu-lagu test path 19
+    steps:
+      - user: |
+          Nih, aku lupa penyanyinya, tapi itu lagu pop romantis yang sering diputar di TV. Bisa cari judulnya?
         intent: query_lagu_lagu
       - action: action_query_lagu_lagu
       - action: action_ask_again

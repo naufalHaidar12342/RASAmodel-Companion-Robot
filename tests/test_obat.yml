@@ -1,0 +1,240 @@
+stories:
+  - story: obat test path 1
+    steps:
+      - user: |
+          saya mau bertanya tentang obat-obatan
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: obat test path 2
+    steps:
+      - user: |
+          obat untuk diabetes apa ?
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: obat test path 3
+    steps:
+      - user: |
+          Aduh, punya obat apa yang bisa ngilangin sakit perut yang nggak tertahankan?
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: obat test path 4
+    steps:
+      - user: |
+          obat metformin itu apa?
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: obat test path 5
+    steps:
+      - user: |
+          Bang, obat diabetes apa yah?
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: obat test path 6
+    steps:
+      - user: |
+          Bang, tau nggak obat yang bagus buat ngilangin masuk angin?
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: obat test path 7
+    steps:
+      - user: |
+          Apakah ada obat yang direkomendasikan untuk mengatasi alergi kulit?
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: obat test path 8
+    steps:
+      - user: |
+          Nih, aku butuh obat yang bisa ngurangin rasa pusing gara-gara capek.
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: obat test path 9
+    steps:
+      - user: |
+          Apa ya obat yang ampuh buat ngilangin gatal-gatal karena digigit serangga?
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: obat test path 10
+    steps:
+      - user: |
+          Kamu tau gak obat yang bagus buat mengobati luka bakar?
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: obat test path 11
+    steps:
+      - user: |
+          Apakah ada obat yang bisa membantu meredakan gejala flu yang parah?
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: obat test path 12
+    steps:
+      - user: |
+          Aku lupa nama obatnya, tapi itu buat ngilangin nyeri otot. Bisa bantu?
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: obat test path 13
+    steps:
+      - user: |
+          Sis, kamu tau nggak obat yang ampuh buat mengatasi sariawan?
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: obat test path 14
+    steps:
+      - user: |
+          Mohon penjelasan tentang jenis obat yang direkomendasikan untuk mengatasi masalah insomnia.
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: obat test path 15
+    steps:
+      - user: |
+          Bang, ada saran obat untuk mengobati infeksi tenggorokan yang parah?
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: obat test path 16
+    steps:
+      - user: |
+          Eh, obat batuk yang enak rasanya ada nggak sih?
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: obat test path 17
+    steps:
+      - user: |
+          Apakah ada obat-obatan yang bisa digunakan untuk meredakan gejala alergi pernapasan?
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: obat test path 18
+    steps:
+      - user: |
+          Nih, aku butuh rekomendasi obat yang bisa menghentikan mual dan muntah.
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: obat test path 19
+    steps:
+      - user: |
+          Sis, obat apa yang bisa cepat ngasih efek biar cepet sembuh dari pilek?
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: obat test path 20
+    steps:
+      - user: |
+          Mohon informasi mengenai obat-obatan yang efektif untuk mengatasi asma.
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: obat test path 21
+    steps:
+      - user: |
+          Aku butuh obat yang bisa meredakan nyeri sendi. Ada saran?
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: obat test path 22
+    steps:
+      - user: |
+          Bang, obat apa yang bisa ngasih tenaga tambahan buat ngatasi kelelahan?
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: obat test path 23
+    steps:
+      - user: |
+          Apakah ada obat yang bisa digunakan untuk meredakan gejala maag yang sering kambuh?
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: obat test path 24
+    steps:
+      - user: |
+          Nih, aku butuh obat yang bisa cepet nyembuhin luka sayat.
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: obat test path 25
+    steps:
+      - user: |
+          Sis, tau nggak obat yang ampuh buat ngilangin bau mulut?
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: obat test path 26
+    steps:
+      - user: |
+          Mohon penjelasan tentang penggunaan obat antibiotik yang tepat dan efektif.
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: obat test path 27
+    steps:
+      - user: |
+          Eh, kamu tau gak obat yang bagus buat mengatasi gangguan pencernaan?
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: obat test path 28
+    steps:
+      - user: |
+          Bro, obat apa yang bisa ngasih efek langsung biar nggak mabuk perjalanan?
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: obat test path 29
+    steps:
+      - user: |
+          Apakah ada obat-obatan yang bisa membantu menurunkan kolesterol tinggi?
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again
+
+  - story: obat test path 30
+    steps:
+      - user: |
+          Aku butuh obat yang bisa meredakan nyeri sendi.
+        intent: query_obat
+      - action: action_query_obat
+      - action: action_ask_again

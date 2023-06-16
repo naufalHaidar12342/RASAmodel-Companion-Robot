@@ -1,0 +1,193 @@
+stories:
+  - story: penyakit test path 1
+    steps:
+      - user: |
+          saya mau bertanya tentang penyakit
+        intent: query_penyakit
+      - action: action_query_penyakit
+      - action: action_ask_again
+
+  - story: penyakit test path 2
+    steps:
+      - user: |
+          penyebabnya diabetes apa ?
+        intent: query_penyakit
+      - action: action_query_penyakit
+      - action: action_ask_again
+
+  - story: penyakit test path 3
+    steps:
+      - user: |
+          diabetes obatnya apa ?
+        intent: query_penyakit
+      - action: action_query_penyakit
+      - action: action_ask_again
+
+  - story: penyakit test path 4
+    steps:
+      - user: |
+          Aku merasa tidak enak badan, apakah itu tanda penyakit?
+        intent: query_penyakit
+      - action: action_query_penyakit
+      - action: action_ask_again
+
+  - story: penyakit test path 5
+    steps:
+      - user: |
+          Apa gejala-gejala penyakit flu?
+        intent: query_penyakit
+      - action: action_query_penyakit
+      - action: action_ask_again
+
+  - story: penyakit test path 6
+    steps:
+      - user: |
+          Bagaimana cara mengatasi sakit kepala?
+        intent: query_penyakit
+      - action: action_query_penyakit
+      - action: action_ask_again
+
+  - story: penyakit test path 7
+    steps:
+      - user: |
+          Apakah batuk kronis bisa menjadi tanda penyakit serius?
+        intent: query_penyakit
+      - action: action_query_penyakit
+      - action: action_ask_again
+
+  - story: penyakit test path 8
+    steps:
+      - user: |
+          Saya sering merasa lelah dan lesu, apakah itu pertanda penyakit?
+        intent: query_penyakit
+      - action: action_query_penyakit
+      - action: action_ask_again
+
+  - story: penyakit test path 9
+    steps:
+      - user: |
+          Ada obat alami untuk mengatasi demam?
+        intent: query_penyakit
+      - action: action_query_penyakit
+      - action: action_ask_again
+
+  - story: penyakit test path 10
+    steps:
+      - user: |
+          Apa yang harus dilakukan jika mengalami mual dan muntah?
+        intent: query_penyakit
+      - action: action_query_penyakit
+      - action: action_ask_again
+
+  - story: penyakit test path 11
+    steps:
+      - user: |
+          Bagaimana cara ngobatin luka yang bernanah, ya?
+        intent: query_penyakit
+      - action: action_query_penyakit
+      - action: action_ask_again
+  - story: penyakit test path 12
+    steps:
+      - user: |
+          Apakah demam tinggi selalu menjadi tanda adanya infeksi?
+        intent: query_penyakit
+      - action: action_query_penyakit
+      - action: action_ask_again
+  - story: penyakit test path 13
+    steps:
+      - user: |
+          Bagaimana caranya menurunkan tekanan darah tinggi?
+        intent: query_penyakit
+      - action: action_query_penyakit
+      - action: action_ask_again
+  - story: penyakit test path 14
+    steps:
+      - user: |
+          Apa yang bisa menjadi penyebab sakit perut yang berlangsung lama?
+        intent: query_penyakit
+      - action: action_query_penyakit
+      - action: action_ask_again
+  - story: penyakit test path 15
+    steps:
+      - user: |
+          Apa langkah-langkah yang harus diambil jika terkena alergi makanan?
+        intent: query_penyakit
+      - action: action_query_penyakit
+      - action: action_ask_again
+  - story: penyakit test path 16
+    steps:
+      - user: |
+          Gimana cara mengobati gangguan tidur, dong?
+        intent: query_penyakit
+      - action: action_query_penyakit
+      - action: action_ask_again
+
+  - story: penyakit test path 17
+    steps:
+      - user: |
+          Apakah ada metode alami untuk mengatasi stres?
+        intent: query_penyakit
+      - action: action_query_penyakit
+      - action: action_ask_again
+  - story: penyakit test path 18
+    steps:
+      - user: |
+          diabetes obatnya apa ?
+        intent: query_penyakit
+      - action: action_query_penyakit
+      - action: action_ask_again
+  - story: penyakit test path 19
+    steps:
+      - user: |
+          Apa saja gejala-gejala penyakit kanker payudara sih?
+        intent: query_penyakit
+      - action: action_query_penyakit
+      - action: action_ask_again
+
+  - story: penyakit test path 20
+    steps:
+      - user: |
+          Saya mengalami nyeri dada, apakah itu indikasi yang serius?
+        intent: query_penyakit
+      - action: action_query_penyakit
+      - action: action_ask_again
+
+  - story: penyakit test path 21
+    steps:
+      - user: |
+          Kalau kena serangan panik, apa yang harus aku lakukan ya?
+        intent: query_penyakit
+      - action: action_query_penyakit
+      - action: action_ask_again
+
+  - story: penyakit test path 22
+    steps:
+      - user: |
+          Bagaimana cara pengobatan radang tenggorokan yang tepat?
+        intent: query_penyakit
+      - action: action_query_penyakit
+      - action: action_ask_again
+
+  - story: penyakit test path 23
+    steps:
+      - user: |
+          Apakah ada tanda-tanda awal stroke yang bisa diketahui?
+        intent: query_penyakit
+      - action: action_query_penyakit
+      - action: action_ask_again
+
+  - story: penyakit test path 24
+    steps:
+      - user: |
+          Apa yang sebaiknya dilakukan jika terkena gigitan serangga?
+        intent: query_penyakit
+      - action: action_query_penyakit
+      - action: action_ask_again
+
+  - story: penyakit test path 25
+    steps:
+      - user: |
+          Gimana cara mengatasi masalah pencernaan, ya?
+        intent: query_penyakit
+      - action: action_query_penyakit
+      - action: action_ask_again

@@ -1,0 +1,319 @@
+stories:
+  # first batch, consist of 10 stories
+  - story: salat test path 1
+    steps:
+      - user: |
+          mau tanya tentang solat
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 2
+    steps:
+      - user: |
+          kapan melakukan solat maghrib
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 3
+    steps:
+      - user: |
+          kapan waktu solat maghrib?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 4
+    steps:
+      - user: |
+          solat hajat untuk apa?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 5
+    steps:
+      - user: |
+          Bro, jam berapa Salat Maghrib?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 6
+    steps:
+      - user: |
+          Mohon maaf, mohon informasi tentang waktu Salat Isya.
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 7
+    steps:
+      - user: |
+          Aku pengen tahu, jam Salat Dhuhr sekarang berapa ya?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 8
+    steps:
+      - user: |
+          Salat Jumat hari ini di mana ya?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 9
+    steps:
+      - user: |
+          Apakah ada pengumuman tentang Salat Jumat minggu ini?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 10
+    steps:
+      - user: |
+          Eh, Salat Ashar diadain di masjid mana ya?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  # second batch, consist of 10 stories
+  - story: salat test path 11
+    steps:
+      - user: |
+          Apakah ada doa yang dianjurkan setelah menunaikan Salat Tarawih?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 12
+    steps:
+      - user: |
+          Aku pengen tahu, waktu terbaik untuk Salat Istikharah.
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 13
+    steps:
+      - user: |
+          Wah, aku lupa niat Salat Witir. Bisa kasih tau gak?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 14
+    steps:
+      - user: |
+          Gimana cara Salat Tahajud?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 15
+    steps:
+      - user: |
+          Mohon penjelasan mengenai tata cara Salat Sunnah Rawatib.
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 16
+    steps:
+      - user: |
+          Ada tips buat konsisten Salat Sunnah sebelum Subuh gak?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 17
+    steps:
+      - user: |
+          Bang, Salat Dhuha itu berapa rakaat sih?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 18
+    steps:
+      - user: |
+          Bisa cerita pengalaman Salat Hajat kamu?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 19
+    steps:
+      - user: |
+          Kalo Salat Awwabin itu dilakukan kapan ya?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 20
+    steps:
+      - user: |
+          Apakah ada tuntunan Salat Tahiyatul Masjid yang benar?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  # third batch, consist of 10 stories
+  - story: salat test path 21
+    steps:
+      - user: |
+          Eh, gimana nih Salat Janazah kalau di luar negeri?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+  - story: salat test path 22
+    steps:
+      - user: |
+          Bang, Salat Tahiyatul Wudu itu dikerjakan berapa rakaat?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 23
+    steps:
+      - user: |
+          Mohon penjelasan tentang hukum Salat Sunnah sebelum dan sesudah Jum'at.
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+  - story: salat test path 24
+    steps:
+      - user: |
+          Nih, aku bingung tentang tata cara Salat Jenazah. Ada tipsnya?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 25
+    steps:
+      - user: |
+          Salat Tahajud itu bisa dikerjain langsung tiduran gak ya?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 26
+    steps:
+      - user: |
+          Apakah ada keutamaan Salat Duha yang bisa dijelaskan?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 27
+    steps:
+      - user: |
+          Aku kadang ketinggalan Salat Sunnah Rawatib. Ada saran supaya lebih konsisten?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 28
+    steps:
+      - user: |
+          Bro, jam Salat Subuh hari ini?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 29
+    steps:
+      - user: |
+          Mohon informasi tentang tata cara Salat Tarawih secara lengkap.
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 30
+    steps:
+      - user: |
+          Aku lupa niat Salat Witir, tapi udah mulai. Gimana ya?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  # fourth batch, consist of 10 stories
+  - story: salat test path 31
+    steps:
+      - user: |
+          Aku bingung tentang tata cara Salat Jenazah. Ada tips atau panduan yang bisa dibagi?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+  - story: salat test path 32
+    steps:
+      - user: |
+          Sis, gimana nih Salat Janazah kalau di luar negeri?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 33
+    steps:
+      - user: |
+          Apakah ada tuntunan Salat Tahiyatul Masjid yang harus diikuti?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+  - story: salat test path 34
+    steps:
+      - user: |
+          Salat Awwabin itu kapan dilakukan ya?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 35
+    steps:
+      - user: |
+          Aku mau tanya, apa pengalaman Salat Hajatmu?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+  - story: salat test path 36
+    steps:
+      - user: |
+          Mohon penjelasan mengenai syarat sah dalam Salat Jum'at dan tata cara pelaksanaannya.
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 37
+    steps:
+      - user: |
+          Sis, niat Salat Tahajudnya gimana ya?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 38
+    steps:
+      - user: |
+          Bang, waktu terbaik untuk Salat Istikharah itu kapan ya?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 39
+    steps:
+      - user: |
+          Apakah ada doa yang dianjurkan setelah menunaikan Salat Sunnah Rawatib?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
+
+  - story: salat test path 40
+    steps:
+      - user: |
+          Salat Dhuhr itu berapa rakaat sih?
+        intent: query_solat
+      - action: action_query_solat
+      - action: action_ask_again
