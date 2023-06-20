@@ -128,9 +128,9 @@ nlu:
       - matikan musik
       - matikan ceramah
 
-  - intent: command_lagu
-    examples: |
-      - dengarkan lagu
+  # - intent: command_lagu
+  #   examples: |
+  #     - dengarkan lagu
 
   - intent: query_kegiatan
     examples: |

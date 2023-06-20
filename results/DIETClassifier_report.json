@@ -1,16 +1,16 @@
 {
-  "jenis": {
+  "jadwal": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 2,
     "confused_with": {}
   },
-  "lagu_lagu": {
+  "nama_orang": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 43,
+    "support": 4,
     "confused_with": {}
   },
   "penyakit": {
@@ -20,21 +20,23 @@
     "support": 8,
     "confused_with": {}
   },
-  "obat": {
+  "attribute": {
+    "precision": 1.0,
+    "recall": 0.9787234042553191,
+    "f1-score": 0.989247311827957,
+    "support": 47,
+    "confused_with": {
+      "penyakit": 1
+    }
+  },
+  "solat": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 3,
+    "support": 6,
     "confused_with": {}
   },
   "jam": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 2,
-    "confused_with": {}
-  },
-  "jadwal": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
@@ -48,34 +50,18 @@
     "support": 2,
     "confused_with": {}
   },
-  "pengajian": {
+  "lagu_lagu": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 43,
+    "confused_with": {}
+  },
+  "mention": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 10,
-    "confused_with": {}
-  },
-  "solat": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
-    "confused_with": {}
-  },
-  "attribute": {
-    "precision": 1.0,
-    "recall": 0.9787234042553191,
-    "f1-score": 0.989247311827957,
-    "support": 47,
-    "confused_with": {
-      "penyakit": 1
-    }
-  },
-  "nama_orang": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4,
     "confused_with": {}
   },
   "object_type": {
@@ -85,7 +71,21 @@
     "support": 37,
     "confused_with": {}
   },
-  "mention": {
+  "obat": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "jenis": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "pengajian": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
@@ -110,5 +110,5 @@
     "f1-score": 0.9915749210542693,
     "support": 176
   },
-  "accuracy": 0.9951690821256038
+  "accuracy": 0.9951456310679612
 }

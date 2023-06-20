@@ -1,16 +1,16 @@
 {
-  "jenis": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
+  "jadwal": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
     "support": 2,
     "confused_with": {}
   },
-  "lagu_lagu": {
+  "nama_orang": {
     "precision": 1.0,
-    "recall": 0.5348837209302325,
-    "f1-score": 0.6969696969696969,
-    "support": 43,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
     "confused_with": {}
   },
   "penyakit": {
@@ -20,21 +20,23 @@
     "support": 8,
     "confused_with": {}
   },
-  "obat": {
+  "attribute": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 47,
+    "confused_with": {
+      "penyakit": 1
+    }
+  },
+  "solat": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 3,
+    "support": 6,
     "confused_with": {}
   },
   "jam": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 2,
-    "confused_with": {}
-  },
-  "jadwal": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
@@ -48,34 +50,18 @@
     "support": 2,
     "confused_with": {}
   },
-  "pengajian": {
+  "lagu_lagu": {
     "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 10,
+    "recall": 0.5348837209302325,
+    "f1-score": 0.6969696969696969,
+    "support": 43,
     "confused_with": {}
   },
-  "solat": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
-    "confused_with": {}
-  },
-  "attribute": {
+  "mention": {
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
-    "support": 47,
-    "confused_with": {
-      "penyakit": 1
-    }
-  },
-  "nama_orang": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4,
+    "support": 10,
     "confused_with": {}
   },
   "object_type": {
@@ -85,10 +71,24 @@
     "support": 37,
     "confused_with": {}
   },
-  "mention": {
+  "obat": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3,
+    "confused_with": {}
+  },
+  "jenis": {
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "pengajian": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
     "support": 10,
     "confused_with": {}
   },
@@ -110,5 +110,5 @@
     "f1-score": 0.366472208718198,
     "support": 176
   },
-  "accuracy": 0.714975845410628
+  "accuracy": 0.7135922330097088
 }

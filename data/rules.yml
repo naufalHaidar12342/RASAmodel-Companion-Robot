@@ -27,13 +27,13 @@ rules:
       - intent: command_stop
       - action: action_query_stop
 
-  - rule: Play music video when session starts
-    condition:
-      - active_loop: null
-      - slot_was_set:
-      - video_played: false
-    steps:
-      - action: action_lagu_otomatis
-      - action: action_reset_lagu_otomatis_slot
-      - slot_was_set:
-          - video_played: true
+  # - rule: Play music video when session starts
+  #   condition:
+  #     - active_loop: null
+  #     - slot_was_set:
+  #         - video_played: false
+  #   steps:
+  #     - action: action_lagu_otomatis
+  #     - action: action_reset_lagu_otomatis_slot
+  #     - slot_was_set:
+  #         - video_played: true
