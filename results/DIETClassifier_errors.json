@@ -1,5 +1,19 @@
 [
   {
+    "text": "tidak",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "attribute",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9979750514030457,
+        "value": "tidak",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
     "text": "siapa imam pengajian tadi?",
     "entities": [
       {
@@ -23,11 +37,11 @@
     ],
     "predicted_entities": [
       {
-        "entity": "attribute",
-        "start": 6,
-        "end": 10,
-        "confidence_entity": 0.9991747736930847,
-        "value": "pembicara",
+        "entity": "object_type",
+        "start": 11,
+        "end": 20,
+        "confidence_entity": 0.6510828137397766,
+        "value": "pengajian",
         "extractor": "DIETClassifier",
         "processors": [
           "EntitySynonymMapper"
@@ -37,12 +51,86 @@
         "entity": "mention",
         "start": 21,
         "end": 25,
-        "confidence_entity": 0.9984697699546814,
+        "confidence_entity": 0.9978759288787842,
         "value": "tadi",
         "extractor": "DIETClassifier",
         "processors": [
           "EntitySynonymMapper"
         ]
+      }
+    ]
+  },
+  {
+    "text": "kapan melakukan solat maghrib",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "jadwal",
+        "entity": "attribute"
+      },
+      {
+        "start": 16,
+        "end": 29,
+        "value": "solat maghrib",
+        "entity": "solat"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "attribute",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9990862607955933,
+        "value": "jadwal",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "solat",
+        "start": 16,
+        "end": 29,
+        "value": "solat maghrib",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "tanda penyakit diabetes apa",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "gejala",
+        "entity": "attribute"
+      },
+      {
+        "start": 15,
+        "end": 23,
+        "value": "diabetes",
+        "entity": "penyakit"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "penyakit",
+        "start": 15,
+        "end": 23,
+        "confidence_entity": 0.9985415935516357,
+        "value": "penyakit",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "penyakit",
+        "start": 15,
+        "end": 23,
+        "value": "diabetes",
+        "extractor": "RegexEntityExtractor"
       }
     ]
   },
@@ -67,8 +155,19 @@
         "entity": "object_type",
         "start": 0,
         "end": 4,
-        "confidence_entity": 0.9021351933479309,
+        "confidence_entity": 0.8135108351707458,
         "value": "obat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "attribute",
+        "start": 20,
+        "end": 25,
+        "confidence_entity": 0.7585188746452332,
+        "value": "tujuan",
         "extractor": "DIETClassifier",
         "processors": [
           "EntitySynonymMapper"
@@ -78,7 +177,7 @@
         "entity": "penyakit",
         "start": 35,
         "end": 43,
-        "confidence_entity": 0.9070632457733154,
+        "confidence_entity": 0.9983429908752441,
         "value": "penyakit",
         "extractor": "DIETClassifier",
         "processors": [
@@ -90,6 +189,1153 @@
         "start": 35,
         "end": 43,
         "value": "diabetes",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "mainkan lagu frank sinatra new york, new york",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "url",
+        "entity": "attribute"
+      },
+      {
+        "start": 13,
+        "end": 45,
+        "value": "frank sinatra new york, new york",
+        "entity": "lagu_lagu"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "attribute",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9995414018630981,
+        "value": "url",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "lagu_lagu",
+        "start": 13,
+        "end": 18,
+        "confidence_entity": 0.9756612777709961,
+        "value": "frank",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lagu_lagu",
+        "start": 27,
+        "end": 35,
+        "confidence_entity": 0.9956998825073242,
+        "value": "new york",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lagu_lagu",
+        "start": 37,
+        "end": 45,
+        "confidence_entity": 0.9844449758529663,
+        "value": "new york",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lagu_lagu",
+        "start": 13,
+        "end": 45,
+        "value": "frank sinatra new york, new york",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "pengajian fikih sebenarnya untuk apa?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "fikih",
+        "entity": "pengajian"
+      },
+      {
+        "start": 27,
+        "end": 32,
+        "value": "tujuan",
+        "entity": "attribute"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pengajian",
+        "start": 10,
+        "end": 15,
+        "confidence_entity": 0.9956497550010681,
+        "value": "fikih",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "pengajian",
+        "start": 10,
+        "end": 15,
+        "value": "fikih",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "dimana tempat pengajian tadarusan?",
+    "entities": [
+      {
+        "start": 7,
+        "end": 13,
+        "value": "tempat",
+        "entity": "attribute"
+      },
+      {
+        "start": 24,
+        "end": 33,
+        "value": "tadarusan",
+        "entity": "pengajian"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_type",
+        "start": 14,
+        "end": 23,
+        "confidence_entity": 0.6595678329467773,
+        "value": "pengajian",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "pengajian",
+        "start": 24,
+        "end": 33,
+        "confidence_entity": 0.9975595474243164,
+        "value": "tadarusan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "pengajian",
+        "start": 24,
+        "end": 33,
+        "value": "tadarusan",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "kapan melakukan solat tersebut",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "jadwal",
+        "entity": "attribute"
+      },
+      {
+        "start": 22,
+        "end": 30,
+        "value": "tersebut",
+        "entity": "mention"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "attribute",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.9990371465682983,
+        "value": "jadwal",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "solat",
+        "start": 16,
+        "end": 21,
+        "confidence_entity": 0.6201158165931702,
+        "value": "solat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "solat itu untuk apa si",
+    "entities": [
+      {
+        "start": 6,
+        "end": 9,
+        "value": "itu",
+        "entity": "mention"
+      },
+      {
+        "start": 10,
+        "end": 15,
+        "value": "tujuan",
+        "entity": "attribute"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_type",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.8492282032966614,
+        "value": "solat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "mention",
+        "start": 6,
+        "end": 9,
+        "confidence_entity": 0.9968801736831665,
+        "value": "itu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "obat untuk penyakit diabetes",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "obat",
+        "entity": "object_type"
+      },
+      {
+        "start": 20,
+        "end": 28,
+        "value": "diabetes",
+        "entity": "penyakit"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "penyakit",
+        "start": 20,
+        "end": 28,
+        "confidence_entity": 0.7905518412590027,
+        "value": "penyakit",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "penyakit",
+        "start": 20,
+        "end": 28,
+        "value": "diabetes",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "apa saja yang tidak boleh dikonsumsi saat minum obat itu",
+    "entities": [
+      {
+        "start": 14,
+        "end": 25,
+        "value": "larangan",
+        "entity": "attribute"
+      },
+      {
+        "start": 53,
+        "end": 56,
+        "value": "itu",
+        "entity": "mention"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "attribute",
+        "start": 14,
+        "end": 25,
+        "confidence_entity": 0.9696056246757507,
+        "value": "larangan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "attribute",
+        "start": 42,
+        "end": 47,
+        "confidence_entity": 0.496083527803421,
+        "value": "minum",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "mention",
+        "start": 53,
+        "end": 56,
+        "confidence_entity": 0.9958418011665344,
+        "value": "itu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "aturan minum aspirin gimana",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "dosis",
+        "entity": "attribute"
+      },
+      {
+        "start": 13,
+        "end": 20,
+        "value": "aspirin",
+        "entity": "obat"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "attribute",
+        "start": 0,
+        "end": 12,
+        "confidence_entity": 0.8860529661178589,
+        "value": "dosis",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "obat",
+        "start": 13,
+        "end": 20,
+        "value": "aspirin",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "mainkan lagu westlife fool again",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "url",
+        "entity": "attribute"
+      },
+      {
+        "start": 13,
+        "end": 32,
+        "value": "westlife fool again",
+        "entity": "lagu_lagu"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "attribute",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9996781349182129,
+        "value": "url",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "lagu_lagu",
+        "start": 13,
+        "end": 26,
+        "confidence_entity": 0.9482311010360718,
+        "value": "westlife fool",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "iya ingin tanya yang lain",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "lagu_lagu",
+        "start": 21,
+        "end": 25,
+        "confidence_entity": 0.5219173431396484,
+        "value": "lain",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "pengajian tadi kita belajar apa?",
+    "entities": [
+      {
+        "start": 10,
+        "end": 14,
+        "value": "tadi",
+        "entity": "mention"
+      },
+      {
+        "start": 20,
+        "end": 27,
+        "value": "materi",
+        "entity": "attribute"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_type",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.759498655796051,
+        "value": "pengajian",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "mention",
+        "start": 10,
+        "end": 14,
+        "confidence_entity": 0.9979628324508667,
+        "value": "tadi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "solat ashar buat apa si",
+    "entities": [
+      {
+        "start": 0,
+        "end": 11,
+        "value": "solat ashar",
+        "entity": "solat"
+      },
+      {
+        "start": 12,
+        "end": 16,
+        "value": "tujuan",
+        "entity": "attribute"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "attribute",
+        "start": 12,
+        "end": 16,
+        "confidence_entity": 0.9984675049781799,
+        "value": "tujuan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "solat",
+        "start": 0,
+        "end": 11,
+        "value": "solat ashar",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "saya ingin bertanya seputar penyakit",
+    "entities": [
+      {
+        "start": 28,
+        "end": 36,
+        "value": "penyakit",
+        "entity": "object_type"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "saya sedang sakit",
+    "entities": [
+      {
+        "start": 12,
+        "end": 17,
+        "value": "penyakit",
+        "entity": "object_type"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "obat apa aja yang ada di panti?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "obat",
+        "entity": "object_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_type",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.8803452253341675,
+        "value": "obat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "lagu_lagu",
+        "start": 18,
+        "end": 21,
+        "confidence_entity": 0.5734456777572632,
+        "value": "ada",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "disini tersedia obat apa aja?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 20,
+        "value": "obat",
+        "entity": "object_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "mention",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.7118837237358093,
+        "value": "disini",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "mention",
+        "start": 7,
+        "end": 15,
+        "confidence_entity": 0.9559682607650757,
+        "value": "tersedia",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "object_type",
+        "start": 16,
+        "end": 20,
+        "confidence_entity": 0.49903520941734314,
+        "value": "obat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "apa saja yang tidak boleh dikonsumsi saat minum obat paracetamol",
+    "entities": [
+      {
+        "start": 14,
+        "end": 25,
+        "value": "larangan",
+        "entity": "attribute"
+      },
+      {
+        "start": 53,
+        "end": 64,
+        "value": "paracetamol",
+        "entity": "obat"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "attribute",
+        "start": 14,
+        "end": 25,
+        "confidence_entity": 0.9595344662666321,
+        "value": "larangan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "attribute",
+        "start": 42,
+        "end": 47,
+        "confidence_entity": 0.7158596515655518,
+        "value": "minum",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "obat",
+        "start": 53,
+        "end": 64,
+        "value": "paracetamol",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "putar lagu metallica master of puppets",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "url",
+        "entity": "attribute"
+      },
+      {
+        "start": 11,
+        "end": 38,
+        "value": "metallica master of puppets",
+        "entity": "lagu_lagu"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lagu_lagu",
+        "start": 11,
+        "end": 30,
+        "confidence_entity": 0.9592775702476501,
+        "value": "metallica master of",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lagu_lagu",
+        "start": 11,
+        "end": 38,
+        "value": "metallica master of puppets",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "siapa ustad pengajian tadi?",
+    "entities": [
+      {
+        "start": 6,
+        "end": 11,
+        "value": "pembicara",
+        "entity": "attribute"
+      },
+      {
+        "start": 12,
+        "end": 21,
+        "value": "pengajian",
+        "entity": "object_type"
+      },
+      {
+        "start": 22,
+        "end": 26,
+        "value": "tadi",
+        "entity": "mention"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lagu_lagu",
+        "start": 6,
+        "end": 11,
+        "confidence_entity": 0.5826406478881836,
+        "value": "pembicara",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "mention",
+        "start": 22,
+        "end": 26,
+        "confidence_entity": 0.9979634284973145,
+        "value": "tadi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "siapa ustazah saat pengajian tadarusan?",
+    "entities": [
+      {
+        "start": 6,
+        "end": 13,
+        "value": "pembicara",
+        "entity": "attribute"
+      },
+      {
+        "start": 29,
+        "end": 38,
+        "value": "tadarusan",
+        "entity": "pengajian"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pengajian",
+        "start": 29,
+        "end": 38,
+        "confidence_entity": 0.9988150596618652,
+        "value": "tadarusan",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "pengajian",
+        "start": 29,
+        "end": 38,
+        "value": "tadarusan",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "solat sunnah apa aja",
+    "entities": [
+      {
+        "start": 0,
+        "end": 5,
+        "value": "solat",
+        "entity": "object_type"
+      },
+      {
+        "start": 6,
+        "end": 12,
+        "value": "sunnah",
+        "entity": "jenis"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "diabetes obatnya apa",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "diabetes",
+        "entity": "penyakit"
+      },
+      {
+        "start": 9,
+        "end": 16,
+        "value": "obat",
+        "entity": "attribute"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "penyakit",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.9282113313674927,
+        "value": "penyakit",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "penyakit",
+        "start": 0,
+        "end": 8,
+        "value": "diabetes",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "obat ini diminum waktu apa saja",
+    "entities": [
+      {
+        "start": 5,
+        "end": 8,
+        "value": "ini",
+        "entity": "mention"
+      },
+      {
+        "start": 17,
+        "end": 22,
+        "value": "jadwal",
+        "entity": "attribute"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_type",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.7366105914115906,
+        "value": "obat",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "attribute",
+        "start": 17,
+        "end": 22,
+        "confidence_entity": 0.9985201954841614,
+        "value": "jadwal",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "lagu apa aja yang kamu ketahui?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "lagu_lagu",
+        "entity": "object_type"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "lagu apa aja yang kamu tahu?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 4,
+        "value": "lagu_lagu",
+        "entity": "object_type"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "tafsir alquran hari apa",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "tafsir alquran",
+        "entity": "pengajian"
+      },
+      {
+        "start": 15,
+        "end": 19,
+        "value": "jadwal",
+        "entity": "attribute"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "attribute",
+        "start": 7,
+        "end": 14,
+        "confidence_entity": 0.6656264662742615,
+        "value": "alquran",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "pengajian",
+        "start": 0,
+        "end": 14,
+        "value": "tafsir alquran",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "pengajian fikih hari apa",
+    "entities": [
+      {
+        "start": 10,
+        "end": 15,
+        "value": "fikih",
+        "entity": "pengajian"
+      },
+      {
+        "start": 16,
+        "end": 20,
+        "value": "jadwal",
+        "entity": "attribute"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "pengajian",
+        "start": 10,
+        "end": 15,
+        "confidence_entity": 0.9951109290122986,
+        "value": "fikih",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "pengajian",
+        "start": 10,
+        "end": 15,
+        "value": "fikih",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "apa saja solat wajib yang harus dilakukan",
+    "entities": [
+      {
+        "start": 9,
+        "end": 14,
+        "value": "solat",
+        "entity": "object_type"
+      },
+      {
+        "start": 15,
+        "end": 20,
+        "value": "wajib",
+        "entity": "jenis"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "attribute",
+        "start": 15,
+        "end": 20,
+        "confidence_entity": 0.6542917490005493,
+        "value": "wajib",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "penyakit apa saja yang biasa di derita oleh penghuni panti?",
+    "entities": [
+      {
+        "start": 0,
+        "end": 8,
+        "value": "penyakit",
+        "entity": "object_type"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "attribute",
+        "start": 39,
+        "end": 43,
+        "confidence_entity": 0.9688346982002258,
+        "value": "oleh",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "kenapa bisa sakit diabetes apa",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "penyebab",
+        "entity": "attribute"
+      },
+      {
+        "start": 18,
+        "end": 26,
+        "value": "diabetes",
+        "entity": "penyakit"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "object_type",
+        "start": 12,
+        "end": 17,
+        "confidence_entity": 0.9832538962364197,
+        "value": "penyakit",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "penyakit",
+        "start": 18,
+        "end": 26,
+        "confidence_entity": 0.9076592922210693,
+        "value": "penyakit",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "penyakit",
+        "start": 18,
+        "end": 26,
+        "value": "diabetes",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "obat metformin diminum waktu apa saja",
+    "entities": [
+      {
+        "start": 5,
+        "end": 14,
+        "value": "metformin",
+        "entity": "obat"
+      },
+      {
+        "start": 23,
+        "end": 28,
+        "value": "jadwal",
+        "entity": "attribute"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "lagu_lagu",
+        "start": 5,
+        "end": 14,
+        "confidence_entity": 0.5248561501502991,
+        "value": "metformin",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "attribute",
+        "start": 23,
+        "end": 28,
+        "confidence_entity": 0.9985841512680054,
+        "value": "jadwal",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "obat",
+        "start": 5,
+        "end": 14,
+        "value": "metformin",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "aturan minum nya gimana",
+    "entities": [
+      {
+        "start": 0,
+        "end": 12,
+        "value": "dosis",
+        "entity": "attribute"
+      },
+      {
+        "start": 13,
+        "end": 16,
+        "value": "nya",
+        "entity": "mention"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "attribute",
+        "start": 0,
+        "end": 12,
+        "confidence_entity": 0.6795099377632141,
+        "value": "dosis",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "mainkan lagu metallica enter sandman",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "url",
+        "entity": "attribute"
+      },
+      {
+        "start": 13,
+        "end": 36,
+        "value": "metallica enter sandman",
+        "entity": "lagu_lagu"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "attribute",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9996336698532104,
+        "value": "url",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "lagu_lagu",
+        "start": 13,
+        "end": 28,
+        "confidence_entity": 0.9937950372695923,
+        "value": "metallica enter",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "lagu_lagu",
+        "start": 13,
+        "end": 36,
+        "value": "metallica enter sandman",
         "extractor": "RegexEntityExtractor"
       }
     ]

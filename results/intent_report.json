@@ -1,23 +1,61 @@
 {
-  "affirm": {
-    "precision": 1.0,
+  "query_solat": {
+    "precision": 0.8333333333333334,
     "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 6,
+    "f1-score": 0.9090909090909091,
+    "support": 10,
     "confused_with": {}
   },
-  "query_kegiatan": {
-    "precision": 1.0,
+  "query_obat": {
+    "precision": 0.8125,
     "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 2,
+    "f1-score": 0.896551724137931,
+    "support": 13,
     "confused_with": {}
+  },
+  "query_penyakit": {
+    "precision": 1.0,
+    "recall": 0.7,
+    "f1-score": 0.8235294117647058,
+    "support": 10,
+    "confused_with": {
+      "query_obat": 2,
+      "bot_challenge": 1
+    }
+  },
+  "deny": {
+    "precision": 1.0,
+    "recall": 0.375,
+    "f1-score": 0.5454545454545454,
+    "support": 8,
+    "confused_with": {
+      "query_solat": 2,
+      "query_obat": 1
+    }
   },
   "query_lagu_lagu": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
+    "precision": 0.9090909090909091,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.8695652173913043,
     "support": 12,
+    "confused_with": {
+      "bot_challenge": 2
+    }
+  },
+  "affirm": {
+    "precision": 0.8333333333333334,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.8333333333333334,
+    "support": 6,
+    "confused_with": {
+      "query_lagu_lagu": 1
+    }
+  },
+  "bot_challenge": {
+    "precision": 0.5555555555555556,
+    "recall": 1.0,
+    "f1-score": 0.7142857142857143,
+    "support": 5,
     "confused_with": {}
   },
   "greet": {
@@ -27,27 +65,6 @@
     "support": 5,
     "confused_with": {}
   },
-  "query_solat": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 10,
-    "confused_with": {}
-  },
-  "bot_challenge": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 5,
-    "confused_with": {}
-  },
-  "query_obat": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 13,
-    "confused_with": {}
-  },
   "query_pengajian": {
     "precision": 1.0,
     "recall": 1.0,
@@ -55,58 +72,23 @@
     "support": 17,
     "confused_with": {}
   },
-  "query_ulang_tahun": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 2,
-    "confused_with": {}
-  },
-  "command_stop": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 3,
-    "confused_with": {}
-  },
-  "deny": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 8,
-    "confused_with": {}
-  },
-  "query_penyakit": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 10,
-    "confused_with": {}
-  },
-  "query_lagu_kesukaan": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4,
-    "confused_with": {}
-  },
-  "accuracy": 1.0,
+  "accuracy": 0.872093023255814,
   "macro avg": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 97
+    "precision": 0.8826459034792369,
+    "recall": 0.8601851851851853,
+    "f1-score": 0.8435345394953826,
+    "support": 86
   },
   "weighted avg": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 97
+    "precision": 0.9021244420953723,
+    "recall": 0.872093023255814,
+    "f1-score": 0.8645491065826725,
+    "support": 86
   },
   "micro avg": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 97
+    "precision": 0.872093023255814,
+    "recall": 0.872093023255814,
+    "f1-score": 0.872093023255814,
+    "support": 86
   }
 }

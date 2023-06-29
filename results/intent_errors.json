@@ -1,0 +1,90 @@
+[
+  {
+    "text": "tidak",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "query_obat",
+      "confidence": 0.8714829087257385
+    }
+  },
+  {
+    "text": "cukup",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.28855302929878235
+    }
+  },
+  {
+    "text": "selamat tinggal",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "query_solat",
+      "confidence": 0.5576578974723816
+    }
+  },
+  {
+    "text": "iya ingin tanya yang lain",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "query_lagu_lagu",
+      "confidence": 0.3571945130825043
+    }
+  },
+  {
+    "text": "sudah",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "query_solat",
+      "confidence": 0.4903380870819092
+    }
+  },
+  {
+    "text": "saya ingin bertanya seputar penyakit",
+    "intent": "query_penyakit",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.9662706255912781
+    }
+  },
+  {
+    "text": "diabetes obatnya apa",
+    "intent": "query_penyakit",
+    "intent_prediction": {
+      "name": "query_obat",
+      "confidence": 0.9746767282485962
+    }
+  },
+  {
+    "text": "lagu apa aja yang kamu ketahui?",
+    "intent": "query_lagu_lagu",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.9272724986076355
+    }
+  },
+  {
+    "text": "lagu apa aja yang kamu tahu?",
+    "intent": "query_lagu_lagu",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.9456393718719482
+    }
+  },
+  {
+    "text": "terimakasih",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.5012683868408203
+    }
+  },
+  {
+    "text": "penyakit apa saja yang biasa di derita oleh penghuni panti?",
+    "intent": "query_penyakit",
+    "intent_prediction": {
+      "name": "query_obat",
+      "confidence": 0.9848226308822632
+    }
+  }
+]

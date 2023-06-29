@@ -1,0 +1,191 @@
+version: "3.1"
+nlu:
+- intent: query_kegiatan
+  examples: |
+    - [kegiatan](object_type) jam [12.00](jam)
+- intent: query_ulang_tahun
+  examples: |
+    - [ulang tahun]{"entity": "object_type", "value": "personal"} tanggal [02-02-1992](tanggal_lahir)
+- intent: command_stop
+  examples: |
+    - matikan ceramah
+- intent: query_lagu_kesukaan
+  examples: |
+    - [lagu kesukaan]{"entity": "object_type", "value": "personal"} [budi](nama_orang) apa aja ya
+- intent: greet
+  examples: |
+    - hai bot
+- intent: bot_challenge
+  examples: |
+    - apakah kamu manusia?
+- intent: affirm
+  examples: |
+    - yep
+- intent: deny
+  examples: |
+    - nggak
+- intent: query_solat
+  examples: |
+    - [kapan]{"entity": "attribute", "value": "jadwal"} melakukan solat [tersebut](mention)
+- intent: query_penyakit
+  examples: |
+    - [diabetes](penyakit) [obatnya]{"entity": "attribute", "value": "obat"} apa
+    - [gejala](attribute) penyakit [diabetes](penyakit) apa
+- intent: query_lagu_lagu
+  examples: |
+    - [mainkan]{"entity": "attribute", "value": "url"} lagu [the beatles](lagu_lagu)
+    - [putar]{"entity": "attribute", "value": "url"} lagu [metallica master of puppets](lagu_lagu)
+    - [mainkan]{"entity": "attribute", "value": "url"} lagu [westlife fool again](lagu_lagu)
+- intent: query_obat
+  examples: |
+    - [obat](object_type) untuk penyakit [diabetes](penyakit)
+    - apa saja yang [tidak boleh]{"entity": "attribute", "value": "larangan"} dikonsumsi saat minum obat [paracetamol](obat)
+- intent: query_pengajian
+  examples: |
+    - hari [senin](jadwal) kita [pengajian](object_type) apa ya
+    - siapa [ustad]{"entity": "attribute", "value": "pembicara"} [pengajian](object_type) [tadi](mention)?
+    - siapa [imam]{"entity": "attribute", "value": "pembicara"} [pengajian](object_type) [tadi](mention)?
+    - siapa [pembicara](attribute) saat pengajian [tadarusan](pengajian)?
+- synonym: jadwal
+  examples: |
+    - hari
+    - kapan
+    - waktu
+- synonym: materi
+  examples: |
+    - belajar
+- synonym: tujuan
+  examples: |
+    - untuk
+    - buat
+- synonym: perlengkapan
+  examples: |
+    - bawa
+    - dibawa
+- synonym: pembicara
+  examples: |
+    - imam
+    - ustad
+    - ustazah
+- synonym: penyakit
+  examples: |
+    - sakit
+    - diabetes
+- synonym: obat
+  examples: |
+    - obatnya
+    - obat obatan
+    - obat-obatan
+- synonym: penyebab
+  examples: |
+    - penyebabnya
+    - kenapa
+- synonym: gejala
+  examples: |
+    - gejalanya
+    - tanda
+- synonym: larangan
+  examples: |
+    - tidak boleh
+- synonym: dosis
+  examples: |
+    - aturan minum
+- synonym: personal
+  examples: |
+    - lagu kesukaan
+    - ulang tahun
+- synonym: lagu_lagu
+  examples: |
+    - lagu
+- synonym: url
+  examples: |
+    - mainkan
+    - putar
+- lookup: pengajian
+  examples: |
+    - tadarusan
+    - tafsir alquran
+    - tafsir hadist
+    - fikih
+    - sejarah islam
+- lookup: jadwal
+  examples: |
+    - senin
+    - selasa
+    - rabu
+    - kamis
+    - jumat
+    - sabtu
+    - minggu
+- lookup: solat
+  examples: |
+    - solat subuh
+    - solat zuhur
+    - solat ashar
+    - solat maghrib
+    - solat isya
+    - solat dhuha
+    - solat tahajud
+    - solat istikharah
+    - solat hajat
+- lookup: jam
+  examples: |
+    - 04.30
+    - 07.00
+    - 07.15
+    - 08.00
+    - 09.00
+    - 12.00
+    - 12.30
+    - 12.45
+    - 15.00
+    - 18.00
+    - 19.00
+    - 19.30
+    - 19.45
+    - 21.00
+- lookup: penyakit
+  examples: |
+    - diabetes
+    - tekanan darah tinggi
+    - kolesterol tinggi
+    - masalah kesehatan jantung
+    - masalah kesehatan tulang dan sendi
+    - masalah kesehatan mental
+    - masalah tidur
+- lookup: obat
+  examples: |
+    - metformin
+    - glimepiride
+    - lisinopril
+    - amlopidine
+    - astrovatatin
+    - aspirin
+    - clopidogrel
+    - paracetamol
+    - ibuprofen
+    - sentraline
+    - olanzapine
+    - zolpidem
+    - doxepin
+- lookup: nama_orang
+  examples: |
+    - budi
+    - andi
+    - susi
+    - sari
+    - siti
+- lookup: lagu_lagu
+  examples: |
+    - metallica enter sandman
+    - metallica one
+    - metallica master of puppets
+    - metallica the unforgiven
+    - metallica nothing else matters
+    - metallica flying without wings
+    - bon jovi always
+    - bon jovi you give love a bad name
+    - frank sinatra fly me to the moon
+    - frank sinatra new york, new york
+    - frank sinatra my way
+    - frank sinatra strangers in the night
